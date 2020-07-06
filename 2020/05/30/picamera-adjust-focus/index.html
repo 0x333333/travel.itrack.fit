@@ -1,0 +1,56 @@
+<!DOCTYPE html><html lang="zh-cmn-Hans"><head><meta name="generator" content="Hexo 3.9.0"><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title>树莓派摄像头模糊，手动调整对焦 | 湾区搬砖先生</title><meta name="description" content="树莓派官方出品的 Pi Camera 是固定焦距镜头，如果拍照中发现焦距不对成像模糊，就需要手动调整镜头位置。"><meta name="keywords" content="树莓派, 摄像头, 镜头, 对焦, 模糊, Raspberry Pi, PiCamera, Camera, Lens, Focus, DIY, Python, Blurry Image"><meta name="subtitle"><meta name="author" content="湾区搬砖先生"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="google-site-verification" content="lyjTywxijjRkIrnIgRUVF1Db4ZYeyviPMJZVsJpoiRc"><meta name="baidu-site-verification" content="GY2MB9yS0R"><meta name="og:site_name" content="湾区搬砖先生"><meta name="og:type" content="website"><meta name="og:title" content="树莓派摄像头模糊，手动调整对焦"><meta name="og:descricption" content="树莓派官方出品的 Pi Camera 是固定焦距镜头，如果拍照中发现焦距不对成像模糊，就需要手动调整镜头位置。"><meta name="og:url" content="https://blog.itrack.fit/2020/05/30/picamera-adjust-focus/"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="树莓派摄像头模糊，手动调整对焦"><meta name="twitter:description" content="树莓派官方出品的 Pi Camera 是固定焦距镜头，如果拍照中发现焦距不对成像模糊，就需要手动调整镜头位置。"><meta name="twitter:site" content="@Ox333333"><meta name="twitter:url" content="https://blog.itrack.fit/2020/05/30/picamera-adjust-focus/"><link rel="canonical" href="https://blog.itrack.fit/2020/05/30/picamera-adjust-focus/"><link rel="short icon" href="/favicon.png"><link rel="stylesheet" href="/css/apollo.css"><link rel="search" type="application/opensearchdescription+xml" href="http://blog.itrack.fit/atom.xml" title="湾区搬砖先生"></head><body><div class="wrap"><header><a href="/" class="logo-link"><img src="/favicon.png"></a><ul class="nav nav-list"><li class="nav-list-item"><a href="/archives/" target="_self" class="nav-list-link">文章列表</a></li><li class="nav-list-item"><a href="/about/" target="_self" class="nav-list-link">关于我</a></li><li class="nav-list-item"><a href="http://1pixel.cc" target="_blank" class="nav-list-link">摄影</a></li><li class="nav-list-item"><a href="/atom.xml" target="_self" class="nav-list-link">RSS</a></li></ul></header><section class="container"><div class="post"><article class="post-block"><h1 class="post-title">树莓派摄像头模糊，手动调整对焦</h1><div class="post-info">May 30, 2020</div><div class="post-content"><script>
+MathJax = { tex: { tags: 'all' } };
+</script>
+
+<p><img src="https://raw.githubusercontent.com/0x333333/blog_img/master/z_picamera2.jpeg" alt="Raspberry Pi Camera"></p>
+<p>设备: <a href="https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/" target="_blank" rel="noopener">Raspberry Pi 3 B+</a><br>摄像头: <a href="https://www.raspberrypi.org/products/camera-module-v2/" target="_blank" rel="noopener">Raspberry Pi Camera v2.1</a></p>
+<p>之前用树莓派搭了一个简易植物拍摄台，用来拍家里橘子从种子到发芽的延时视频。看了第一版的视频原片，橘子苗看上去特别模糊，镜头聚焦在了后面，比如背景中的地板纹路就很清楚。</p>
+<a id="more"></a>
+<p>就这原片的拍摄质量，我也不期望能拍出什么大片，毕竟就十块钱的摄像头。抱着试一试的心态，我决定捣鼓下能不能改进摄像头的对焦。</p>
+<p><img src="https://raw.githubusercontent.com/0x333333/blog_img/master/z_baby_tangerine.png" alt="Baby tangerine under Raspberry Pi Camera"></p>
+<h2 id="如何调整树莓派摄像头的对焦"><a href="#如何调整树莓派摄像头的对焦" class="headerlink" title="如何调整树莓派摄像头的对焦?"></a>如何调整树莓派摄像头的对焦?</h2><p>原厂出品的树莓派摄像头 V2.1 版是定焦镜头，意味着镜头不支持自动对焦，也不支持程序对焦，镜头是固定好了的。但这款摄像头设计时留了些调整的空间，如果仔细观察，可以看到摄像头其实拧进去的。<strong>只要把胶水去掉（拧起来松动后胶水自动就没了），摄像头便可以通过转一转来调整相距（镜头与感光元件间的距离），从而达到调整物距（物体与镜头的距离）的目的</strong>。</p>
+<p>看上去一个不起眼的设计，反倒成了一个非常不错的低成本调焦方案！</p>
+<p><img src="https://raw.githubusercontent.com/0x333333/blog_img/master/z_picamera.jpeg" alt="Raspberry Pi Camera Lens Base"></p>
+<p>仔细看图中标注的部分，可以转的镜头是最中心十字花状的部分，调整时可以用镊子或者其他尖锐工具。</p>
+<h2 id="工作原理"><a href="#工作原理" class="headerlink" title="工作原理"></a>工作原理</h2><p>为什么调整摄像头的位置可以改变焦距呢？</p>
+<p>为了简化摄像头的结构，可以看下面的简图。摄像头的感光元件位于底部，镜头在上方。当我们旋转镜头时，镜头的高度便会发生变化，从而调整了相距。</p>
+<p><img src="https://raw.githubusercontent.com/0x333333/blog_img/master/z_picamera_diagram.png" alt="Raspberry Pi Camera Sketch"></p>
+<p>当我们缩小相距 <code>v</code>，物距 <code>u</code> 相应地会变大。</p>
+<p><img src="https://raw.githubusercontent.com/0x333333/blog_img/master/z_picamera_diagram2.png" alt="Raspberry Pi Camera Sketch"></p>
+<ul>
+<li><code>v</code>: 相距, 感光元件与镜头的距离</li>
+<li><code>u</code>: 物距, 镜头与物体的距离</li>
+</ul>
+<p>这里不得不提的著名焦距计算公式：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">1/v + 1/u = 1/f</span><br></pre></td></tr></table></figure>
+<p>我们知道，当镜头生产出来后，其焦距便已经固定了，镜头的焦距由镜头的几何形状决定。根据成相原理，上述公式右半部分是定值，左半部分 <code>v</code> 和 <code>u</code> 成负相关，即一个值变小，另一个值便会变大。所以，在树莓派这个摄像头上，当我们增加相距，物距便会减小，从而达到了聚焦点从背景往前移动的目的。</p>
+<h2 id="动手实验"><a href="#动手实验" class="headerlink" title="动手实验"></a>动手实验</h2><p>实验开始！经过几次动手尝试，我建议大家先顺时针旋转，将镜头拧到最里面（不要拧得太紧），此时相距最小，物距最大。接下来，慢慢将镜头逆时针拧出来，相距逐渐变大，物距慢慢缩小。这样做有几点好处：</p>
+<ul>
+<li>如果一开始胡乱左右乱拧，很容易错过最佳对焦距离，因为你也不知道自己拧到了什么程度</li>
+<li>如果一开始就逆时针将镜头往外拧，很容易不小心把镜头拧掉出来，一旦镜头出来，安回去就比较麻烦，因为卡位实在太小</li>
+</ul>
+<p>当镜头拧到最里面，我们需要慢慢把它拧出来时，我们可以每旋转45到90度就拍一张照，最好能够在一个固定位置，选择既有近景又有远景的角度，这样便于更好的观察调整效果。摄像头拍摄的命令可以用下面的例子，每次执行时可以换不同的文件名，这样可以拿新老图片前后对比。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">raspistill -o test.jpg</span><br></pre></td></tr></table></figure>
+<p>下面是我调焦过程中的实验图片：</p>
+<p><img src="https://raw.githubusercontent.com/0x333333/blog_img/master/z_picamera_tuning1.jpg" alt="Raspberry Pi Camera Tuning"></p>
+<p><img src="https://raw.githubusercontent.com/0x333333/blog_img/master/z_picamera_tuning2.jpg" alt="Raspberry Pi Camera Tuning"></p>
+<p><img src="https://raw.githubusercontent.com/0x333333/blog_img/master/z_picamera_tuning3.jpg" alt="Raspberry Pi Camera Tuning"></p>
+<p><img src="https://raw.githubusercontent.com/0x333333/blog_img/master/z_picamera_tuning4.jpg" alt="Raspberry Pi Camera Tuning"></p>
+<p><img src="https://raw.githubusercontent.com/0x333333/blog_img/master/z_picamera_tuning5.jpg" alt="Raspberry Pi Camera Tuning"></p>
+<p>可以看出，最后一张时焦点已经落在笔记本键盘附近了（因为是手持拍摄，加上夜晚光线不好，所有有些模糊是由手抖动导致的）。</p>
+<h2 id="注意点"><a href="#注意点" class="headerlink" title="注意点"></a>注意点</h2><ul>
+<li>实验过程要当心，尖锐工具使用时别伤了自己</li>
+<li>旋转镜头时不要用力过猛，摄像头芯片和镜头都很脆弱</li>
+<li>在逆时针旋转镜头时，注意不要旋转过多，一旦镜头掉出来就麻烦了</li>
+<li>有些人建议每一步都将摄像头拆下来调整，然后再装上去拍照看效果，我直接连着树莓派测试，好像也没什么问题</li>
+</ul>
+<p><strong><em>最后，特别感谢苹果摄像头专家胡博士的建议，他给的方程是本实验的理论基础！</em></strong></p>
+</div></article></div></section><footer><div class="paginator"><a href="/2020/05/30/gardening/" class="prev">上一篇</a><a href="/2020/05/25/protect-tomato/" class="next">下一篇</a></div><div id="disqus_thread"></div><script>var disqus_shortname = 'travel-itrack-fit';
+var disqus_identifier = '2020/05/30/picamera-adjust-focus/';
+var disqus_title = '树莓派摄像头模糊，手动调整对焦';
+var disqus_url = 'http://blog.itrack.fit/2020/05/30/picamera-adjust-focus/';
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();</script><script id="dsq-count-scr" src="//travel-itrack-fit.disqus.com/count.js" async></script><div class="copyright"><p>2013 - 2020 | <a href="http://blog.itrack.fit">湾区搬砖先生</a> <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">| CC BY-NC-ND</a></p></div></footer></div><script async data-ad-client="ca-pub-3843524064868692" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><script>(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;e=o.createElement(i);r=o.getElementsByTagName(i)[0];e.src='//www.google-analytics.com/analytics.js';r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));ga('create',"UA-159358529-1",'auto');ga('send','pageview');</script></body></html>
