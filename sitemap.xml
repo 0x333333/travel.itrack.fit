@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.itrack.fit/2020/07/11/gimp-passport-photo/</loc>
+    
+    <lastmod>2020-07-12T03:45:35.550Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://blog.itrack.fit/2020/07/06/gimp-remove-background/</loc>
     
-    <lastmod>2020-07-06T03:19:57.587Z</lastmod>
+    <lastmod>2020-07-12T03:14:57.917Z</lastmod>
     
   </url>
   
@@ -30,13 +37,6 @@
   </url>
   
   <url>
-    <loc>http://blog.itrack.fit/2020/05/31/purisima/</loc>
-    
-    <lastmod>2020-07-05T23:28:39.609Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://blog.itrack.fit/2020/05/31/open-oyster-with-screwdriver/</loc>
     
     <lastmod>2020-07-05T23:28:39.609Z</lastmod>
@@ -44,9 +44,9 @@
   </url>
   
   <url>
-    <loc>http://blog.itrack.fit/2020/05/23/university-avenue/</loc>
+    <loc>http://blog.itrack.fit/2020/05/31/purisima/</loc>
     
-    <lastmod>2020-07-05T23:28:39.608Z</lastmod>
+    <lastmod>2020-07-05T23:28:39.609Z</lastmod>
     
   </url>
   
@@ -58,7 +58,7 @@
   </url>
   
   <url>
-    <loc>http://blog.itrack.fit/2020/05/30/gardening/</loc>
+    <loc>http://blog.itrack.fit/2020/05/23/university-avenue/</loc>
     
     <lastmod>2020-07-05T23:28:39.608Z</lastmod>
     
@@ -72,14 +72,21 @@
   </url>
   
   <url>
-    <loc>http://blog.itrack.fit/2020/05/19/wfh-toolkit/</loc>
+    <loc>http://blog.itrack.fit/2020/05/30/gardening/</loc>
+    
+    <lastmod>2020-07-05T23:28:39.608Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.itrack.fit/2020/05/10/netflix-hollywood/</loc>
     
     <lastmod>2020-07-05T23:28:39.607Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://blog.itrack.fit/2020/05/10/netflix-hollywood/</loc>
+    <loc>http://blog.itrack.fit/2020/05/19/wfh-toolkit/</loc>
     
     <lastmod>2020-07-05T23:28:39.607Z</lastmod>
     
@@ -100,14 +107,14 @@
   </url>
   
   <url>
-    <loc>http://blog.itrack.fit/2020/02/16/wfh-advice/</loc>
+    <loc>http://blog.itrack.fit/2020/05/19/gardening/</loc>
     
     <lastmod>2020-07-05T23:28:39.605Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://blog.itrack.fit/2020/05/19/gardening/</loc>
+    <loc>http://blog.itrack.fit/2020/02/16/wfh-advice/</loc>
     
     <lastmod>2020-07-05T23:28:39.605Z</lastmod>
     
@@ -121,14 +128,14 @@
   </url>
   
   <url>
-    <loc>http://blog.itrack.fit/2020/02/07/maui-trip-snorkeling/</loc>
+    <loc>http://blog.itrack.fit/2020/02/08/maui-trip-lanai/</loc>
     
     <lastmod>2020-07-05T23:28:39.603Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://blog.itrack.fit/2020/02/08/maui-trip-lanai/</loc>
+    <loc>http://blog.itrack.fit/2020/02/07/maui-trip-snorkeling/</loc>
     
     <lastmod>2020-07-05T23:28:39.603Z</lastmod>
     
@@ -156,6 +163,13 @@
   </url>
   
   <url>
+    <loc>http://blog.itrack.fit/2019/12/29/st-augustine-2/</loc>
+    
+    <lastmod>2020-07-05T23:28:39.600Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://blog.itrack.fit/2019/12/28/st-augustine/</loc>
     
     <lastmod>2020-07-05T23:28:39.600Z</lastmod>
@@ -170,9 +184,9 @@
   </url>
   
   <url>
-    <loc>http://blog.itrack.fit/2019/12/29/st-augustine-2/</loc>
+    <loc>http://blog.itrack.fit/2019/12/27/longboat/</loc>
     
-    <lastmod>2020-07-05T23:28:39.600Z</lastmod>
+    <lastmod>2020-07-05T23:28:39.598Z</lastmod>
     
   </url>
   
@@ -184,21 +198,14 @@
   </url>
   
   <url>
-    <loc>http://blog.itrack.fit/2019/12/27/longboat/</loc>
-    
-    <lastmod>2020-07-05T23:28:39.598Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.itrack.fit/2019/12/26/naples/</loc>
+    <loc>http://blog.itrack.fit/2019/12/26/everglades-2/</loc>
     
     <lastmod>2020-07-05T23:28:39.597Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://blog.itrack.fit/2019/12/26/everglades-2/</loc>
+    <loc>http://blog.itrack.fit/2019/12/26/naples/</loc>
     
     <lastmod>2020-07-05T23:28:39.597Z</lastmod>
     

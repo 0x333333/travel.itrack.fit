@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.itrack.fit/"/>
-  <updated>2020-07-06T03:19:57.587Z</updated>
+  <updated>2020-07-12T03:45:35.550Z</updated>
   <id>http://blog.itrack.fit/</id>
   
   <author>
@@ -17,17 +17,37 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>GIMP 去除背景扣人像</title>
-    <link href="http://blog.itrack.fit/2020/07/06/gimp-remove-background/"/>
-    <id>http://blog.itrack.fit/2020/07/06/gimp-remove-background/</id>
-    <published>2020-07-06T15:43:00.000Z</published>
-    <updated>2020-07-06T03:19:57.587Z</updated>
+    <title>GIMP 制作护照、签证照片生成</title>
+    <link href="http://blog.itrack.fit/2020/07/11/gimp-passport-photo/"/>
+    <id>http://blog.itrack.fit/2020/07/11/gimp-passport-photo/</id>
+    <published>2020-07-11T15:43:00.000Z</published>
+    <updated>2020-07-12T03:45:35.550Z</updated>
     
-    <content type="html"><![CDATA[<p>很多时候，我们需要去除图片背景、扣前景，比如拍职业照、证件照，或者把某些人P到另一张照片上等等，这些都涉及到如何抠图的技巧。这篇文章，我们就利用 GIMP 的蒙版，详细讲讲如何抠图。</p><p><img src="https://imgur.com/y1BQVeC.png" alt="Side by side comparison of how to remove iamge background using GIMP"></p><a id="more"></a><h2 id="蒙版的原理"><a href="#蒙版的原理" class="headerlink" title="蒙版的原理"></a>蒙版的原理</h2><p>蒙版翻译自英文 Mask，可以理解为在原有图层上的另一种图层，用来控制原图层是否显示、显示多少等。用蒙版抠图的原理其实很简单，就是在原图上扣除一个前景的框框，叠在原图上就把背景（不需要的部分）都挡住了，自然就只剩下了前景。</p><h2 id="具体步骤"><a href="#具体步骤" class="headerlink" title="具体步骤"></a>具体步骤</h2><p>一下步骤仅作为参考，过程中大家可以自行发挥，扣除的图像效果说不定会更好。</p><h3 id="1-导入图片"><a href="#1-导入图片" class="headerlink" title="1. 导入图片"></a>1. 导入图片</h3><p>将需要修改的图片拖进 GIMP，或者通过 File -&gt; Open 打开文件。复制一份当前图层，副本用来制作蒙版。</p><p><img src="https://imgur.com/HAREdYz.png" alt="Import an image into GIMP"></p><h3 id="2-修改图片颜色"><a href="#2-修改图片颜色" class="headerlink" title="2. 修改图片颜色"></a>2. 修改图片颜色</h3><p>观察原图，可以发现很多细节前后景区分不明显，我们可以通过调节对比度、亮度、颜色曲线等来实现前后分离。</p><p>调节颜色曲线：Colors -&gt; Curves</p><p><img src="https://imgur.com/IYyqbgA.png" alt="Edit color curves"></p><p>转黑白，提取元素：Colors -&gt; Components -&gt; Extract Component。<strong>这里注意，元素选择时有三色红、绿、蓝可以选，建议大家自己试试，选择最能够区分前后景的选项。这里选择了蓝色</strong>。</p><p><img src="https://imgur.com/eW8PCjo.png" alt="Extract components"></p><h3 id="3-准备蒙版"><a href="#3-准备蒙版" class="headerlink" title="3. 准备蒙版"></a>3. 准备蒙版</h3><p>转为黑白后，习惯上大家喜欢把白色的部分作为蒙版显示的部分，所以这里把前景中的人物主题转为白色。</p><p>反转：Colors -&gt; Invert</p><p><img src="https://imgur.com/weLsjOe.png" alt="Invert colors"></p><p>反转后，人物内部有些部分还是灰黑色，这时候需要刷子工具都刷成白色。使用刷子时，可以根据自己喜好调节刷子大小、硬度，如果对于抠图细节要求较高，刷子调整这一步需要花些时间。</p><p>刷子：Paintbrush tool</p><p><img src="https://imgur.com/KkHBJTa.png" alt="Paint the frontground with paintbrush tool"></p><p>刷好后如下效果如下：</p><p><img src="https://imgur.com/MyDMGFd.png" alt="After paint"></p><p>有时候，我们对于黑白边缘拿捏不是很稳，除了拿刷子慢慢填之外，我们还可以通过色阶来调整黑白，如图：</p><p>色阶：Colors -&gt; Levels</p><p><img src="https://imgur.com/0IsEOSc.png" alt="Update color levels"></p><h3 id="4-应用蒙版"><a href="#4-应用蒙版" class="headerlink" title="4. 应用蒙版"></a>4. 应用蒙版</h3><p>调整完毕，选择原图图层，右键选择添加蒙版 Add Layer Mask，选择第一项白色透明蒙版。</p><p><img src="https://imgur.com/jxf2Uct.png" alt="Add a white 100% opacity layer mask"></p><p>选中副本，复制（ctrl-c），选中原图图层，粘贴（ctrl-v），我们会看到一个悬浮层。这时，我们可以把副本隐藏（点击副本前的小眼睛图标），查看抠图效果。如果效果还不错，可以点击右下方绿色的钩状图标 Anckor，这样蒙版就应用上去了。</p><p><img src="https://imgur.com/OXPOeps.png" alt="Copy-paste mask layer"></p><p>我们可以放大了看看效果图，头发丝的部分还是扣得很不错的。</p><p><img src="https://imgur.com/hG42bqA.png" alt="Details after extraction"></p><h2 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h2><ul><li>使用蒙版抠图最核心的步骤便是创建蒙版，具体使用什么方法，取决于原图的具体情况<ul><li>可以通过调整色阶加强对比度</li><li>可以提取元素</li><li>可以使用desaturate去饱和度</li></ul></li><li>人物描边时，可以用路径工具选出任务大致路径，相当于用人眼辅助</li><li>扣完的图如果边缘不理想，还可以通过克隆工具修一下颜色</li><li>花的时间越多，抠图就可以做得越细致</li></ul>]]></content>
+    <content type="html"><![CDATA[<p>在美国，很多时候我们需要拍 2x2 inch 的护照照，办签证、工卡什么的都会用得到。如果每次都去 Walgreens 拍，动辄几十、有时候甚至上百刀。其实，如果学会了这些小技巧，在家拍好去 Walgreens 打印 4x6 inch 的照片（6 张 2x2）只要三毛钱。</p><a id="more"></a><h2 id="拍摄照片"><a href="#拍摄照片" class="headerlink" title="拍摄照片"></a>拍摄照片</h2><p>请详细参考官方的照片要求，<a href="https://travel.state.gov/content/travel/en/passports/how-apply/photos.html" target="_blank" rel="noopener">Passport Photo</a>。</p><h2 id="调整背景"><a href="#调整背景" class="headerlink" title="调整背景"></a>调整背景</h2><p>可以参考这篇 <a href="/2020/07/06/gimp-remove-background/">GIMP 蒙版抠图去除背景</a>。</p><p>小技巧</p><ul><li>拍摄时尽量选择光线充足的地方</li><li>背景尽量简单</li><li>着装与背景颜色差异越大越好</li></ul><h2 id="调整额头、鼻子、下巴位置"><a href="#调整额头、鼻子、下巴位置" class="headerlink" title="调整额头、鼻子、下巴位置"></a>调整额头、鼻子、下巴位置</h2><p>将扣好背景的照片导出，有一些非常小巧的工具可以帮助你根据美国官方的要求调整额头、下巴的位置，比如 <a href="https://apps.apple.com/bt/app/passport-photo/id759142884" target="_blank" rel="noopener">Passport Photo</a>。调整好后保存照片，这些功能免费，如果需要打印 4x6 inch，则需要付钱，这里我们可以再用 GIMP 调整，非常方便。</p><h2 id="GIMP-排列照片"><a href="#GIMP-排列照片" class="headerlink" title="GIMP 排列照片"></a>GIMP 排列照片</h2><p>首先，我们将调整好的照片导入 GIMP</p><p><img src="https://imgur.com/O8inKqB.jpg" alt="Photo sample"></p><p>选择 Filter -&gt; Map -&gt; Tile</p><p><img src="https://imgur.com/pY7UzTm.jpg" alt="Choose tile in GIMP"></p><p>因为原照片是 2x2 inch，如果我们需要一个 3x2 排列的照片，新照片尺寸正好是 6x4 inch，我们在对话空中输入，记得单位选择 inch。</p><p><img src="https://imgur.com/Fsa1gih.jpg" alt="Choose the size of the new image"></p><p>点击 OK，新的 6x4 inch 的照片就生成好了，导出带到 Walgreens 直接打印就好了！</p><p><img src="https://imgur.com/7jAa522.jpg" alt="New image is generated"></p>]]></content>
     
     <summary type="html">
     
-      很多时候，我们需要去除图片背景、扣前景，比如拍职业照、证件照，或者把某些人P到另一张照片上等等，这些都涉及到如何抠图的技巧。这篇文章，我们就利用 GIMP 的蒙版，详细讲讲如何抠图。
+      很多时候我们需要拍护照、签证照，利用 GIMP 我们可以很快地自己 DIY，并不需要去 Walgreens 之类的地方现场拍。
+    
+    </summary>
+    
+    
+      <category term="photography" scheme="http://blog.itrack.fit/tags/photography/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>GIMP 蒙版去除背景扣图</title>
+    <link href="http://blog.itrack.fit/2020/07/06/gimp-remove-background/"/>
+    <id>http://blog.itrack.fit/2020/07/06/gimp-remove-background/</id>
+    <published>2020-07-06T15:43:00.000Z</published>
+    <updated>2020-07-12T03:14:57.917Z</updated>
+    
+    <content type="html"><![CDATA[<p>很多时候，我们需要去除图片背景、扣前景，比如拍职业照、证件照，或者把某些人P到另一张照片上等等，这些都涉及到如何抠图的技巧。这篇教程里，我们就利用 GIMP 的蒙版，详细讲讲如何抠图。</p><p><img src="https://imgur.com/y1BQVeC.png" alt="Side by side comparison of how to remove iamge background using GIMP"></p><a id="more"></a><h2 id="蒙版的原理"><a href="#蒙版的原理" class="headerlink" title="蒙版的原理"></a>蒙版的原理</h2><p>蒙版翻译自英文 Mask，可以理解为在原有图层上的另一种图层，用来控制原图层是否显示、显示多少等。用蒙版抠图的原理其实很简单，就是在原图上扣除一个前景的框框，叠在原图上就把背景（不需要的部分）都挡住了，自然就只剩下了前景。</p><h2 id="具体步骤"><a href="#具体步骤" class="headerlink" title="具体步骤"></a>具体步骤</h2><p>一下步骤仅作为参考，过程中大家可以自行发挥，扣除的图像效果说不定会更好。</p><h3 id="1-导入图片"><a href="#1-导入图片" class="headerlink" title="1. 导入图片"></a>1. 导入图片</h3><p>将需要修改的图片拖进 GIMP，或者通过 File -&gt; Open 打开文件。复制一份当前图层，副本用来制作蒙版。</p><p><img src="https://imgur.com/HAREdYz.png" alt="Import an image into GIMP"></p><h3 id="2-修改图片颜色"><a href="#2-修改图片颜色" class="headerlink" title="2. 修改图片颜色"></a>2. 修改图片颜色</h3><p>观察原图，可以发现很多细节前后景区分不明显，我们可以通过调节对比度、亮度、颜色曲线等来实现前后分离。</p><p>调节颜色曲线：Colors -&gt; Curves</p><p><img src="https://imgur.com/IYyqbgA.png" alt="Edit color curves"></p><p>转黑白，提取元素：Colors -&gt; Components -&gt; Extract Component。<strong>这里注意，元素选择时有三色红、绿、蓝可以选，建议大家自己试试，选择最能够区分前后景的选项。这里选择了蓝色</strong>。</p><p><img src="https://imgur.com/eW8PCjo.png" alt="Extract components"></p><h3 id="3-准备蒙版"><a href="#3-准备蒙版" class="headerlink" title="3. 准备蒙版"></a>3. 准备蒙版</h3><p>转为黑白后，习惯上大家喜欢把白色的部分作为蒙版显示的部分，所以这里把前景中的人物主题转为白色。</p><p>反转：Colors -&gt; Invert</p><p><img src="https://imgur.com/weLsjOe.png" alt="Invert colors"></p><p>反转后，人物内部有些部分还是灰黑色，这时候需要刷子工具都刷成白色。使用刷子时，可以根据自己喜好调节刷子大小、硬度，如果对于抠图细节要求较高，刷子调整这一步需要花些时间。</p><p>刷子：Paintbrush tool</p><p><img src="https://imgur.com/KkHBJTa.png" alt="Paint the frontground with paintbrush tool"></p><p>刷好后如下效果如下：</p><p><img src="https://imgur.com/MyDMGFd.png" alt="After paint"></p><p>有时候，我们对于黑白边缘拿捏不是很稳，除了拿刷子慢慢填之外，我们还可以通过色阶来调整黑白，如图：</p><p>色阶：Colors -&gt; Levels</p><p><img src="https://imgur.com/0IsEOSc.png" alt="Update color levels"></p><h3 id="4-应用蒙版"><a href="#4-应用蒙版" class="headerlink" title="4. 应用蒙版"></a>4. 应用蒙版</h3><p>调整完毕，选择原图图层，右键选择添加蒙版 Add Layer Mask，选择第一项白色透明蒙版。</p><p><img src="https://imgur.com/jxf2Uct.png" alt="Add a white 100% opacity layer mask"></p><p>选中副本，复制（ctrl-c），选中原图图层，粘贴（ctrl-v），我们会看到一个悬浮层。这时，我们可以把副本隐藏（点击副本前的小眼睛图标），查看抠图效果。如果效果还不错，可以点击右下方绿色的钩状图标 Anckor，这样蒙版就应用上去了。</p><p><img src="https://imgur.com/OXPOeps.png" alt="Copy-paste mask layer"></p><p>我们可以放大了看看效果图，头发丝的部分还是扣得很不错的。</p><p><img src="https://imgur.com/hG42bqA.png" alt="Details after extraction"></p><h2 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h2><ul><li>使用蒙版抠图最核心的步骤便是创建蒙版，具体使用什么方法，取决于原图的具体情况<ul><li>可以通过调整色阶加强对比度</li><li>可以提取元素</li><li>可以使用desaturate去饱和度</li></ul></li><li>人物描边时，可以用路径工具选出任务大致路径，相当于用人眼辅助</li><li>扣完的图如果边缘不理想，还可以通过克隆工具修一下颜色</li><li>花的时间越多，抠图就可以做得越细致</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      很多时候，我们需要去除图片背景、扣前景，比如拍职业照、证件照，或者把某些人P到另一张照片上等等，这些都涉及到如何抠图的技巧。这篇教程，我们就利用 GIMP 的蒙版，详细讲讲如何抠图。
     
     </summary>
     
@@ -57,26 +77,6 @@
   </entry>
   
   <entry>
-    <title>Purisima Creek North Ridge Hiking Trail</title>
-    <link href="http://blog.itrack.fit/2020/05/31/purisima/"/>
-    <id>http://blog.itrack.fit/2020/05/31/purisima/</id>
-    <published>2020-05-31T15:43:00.000Z</published>
-    <updated>2020-07-05T23:28:39.609Z</updated>
-    
-    <content type="html"><![CDATA[<iframe width="800" height="450" src="https://www.youtube.com/embed/Da7xhEPjrLM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><a id="more"></a><p><img src="https://i.imgur.com/zcMqj82h.jpg" alt="Wild flower along the Purisima hiking trail"></p><p><a href="https://www.alltrails.com/trail/us/california/purisima-creek-redwoods-north-ridge-trail" target="_blank" rel="noopener">Purisima North Ridge Hiking Trail</a> 位于加州的 Redwood City，属于 Purisima Creek Open Preserve 的一部分。这条徒步路线位于 reserve 的北边，沿着山脊一直延伸至 preserve 另一头，单程 2.2 miles，往返的海拔大约有 1330 ft，来回大概需要一个半到两小时，非常适合锻炼心肺功能。</p><p>也正是因为这条路线有些上下坡比较陡，建议穿防滑登山鞋。这条路线前半段有树荫遮挡，中间一小段全是草地，如果对阳光敏感，可以戴上遮阳帽和墨镜。</p><p>作为 open preserve 的一部分，一路上有各式各样的植物，小野花，风景还是很不错的，推荐！ </p><p><img src="https://i.imgur.com/combsS1h.jpg" alt="Wild flower along the Purisima hiking trail"></p><p><img src="https://i.imgur.com/7IcBUUlh.jpg" alt="Wild flower along the Purisima hiking trail"></p><p><img src="https://i.imgur.com/jmDpF2Ah.jpg" alt="Weed along the Purisima hiking trail"></p>]]></content>
-    
-    <summary type="html">
-    
-      周末与好友一起去了 Purisima North Ridge Hiking Trail 徒步，
-    
-    </summary>
-    
-    
-      <category term="hiking" scheme="http://blog.itrack.fit/tags/hiking/"/>
-    
-  </entry>
-  
-  <entry>
     <title>家用螺丝刀开生蚝</title>
     <link href="http://blog.itrack.fit/2020/05/31/open-oyster-with-screwdriver/"/>
     <id>http://blog.itrack.fit/2020/05/31/open-oyster-with-screwdriver/</id>
@@ -93,6 +93,26 @@
     
     
       <category term="food" scheme="http://blog.itrack.fit/tags/food/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Purisima Creek North Ridge Hiking Trail</title>
+    <link href="http://blog.itrack.fit/2020/05/31/purisima/"/>
+    <id>http://blog.itrack.fit/2020/05/31/purisima/</id>
+    <published>2020-05-31T15:43:00.000Z</published>
+    <updated>2020-07-05T23:28:39.609Z</updated>
+    
+    <content type="html"><![CDATA[<iframe width="800" height="450" src="https://www.youtube.com/embed/Da7xhEPjrLM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><a id="more"></a><p><img src="https://i.imgur.com/zcMqj82h.jpg" alt="Wild flower along the Purisima hiking trail"></p><p><a href="https://www.alltrails.com/trail/us/california/purisima-creek-redwoods-north-ridge-trail" target="_blank" rel="noopener">Purisima North Ridge Hiking Trail</a> 位于加州的 Redwood City，属于 Purisima Creek Open Preserve 的一部分。这条徒步路线位于 reserve 的北边，沿着山脊一直延伸至 preserve 另一头，单程 2.2 miles，往返的海拔大约有 1330 ft，来回大概需要一个半到两小时，非常适合锻炼心肺功能。</p><p>也正是因为这条路线有些上下坡比较陡，建议穿防滑登山鞋。这条路线前半段有树荫遮挡，中间一小段全是草地，如果对阳光敏感，可以戴上遮阳帽和墨镜。</p><p>作为 open preserve 的一部分，一路上有各式各样的植物，小野花，风景还是很不错的，推荐！ </p><p><img src="https://i.imgur.com/combsS1h.jpg" alt="Wild flower along the Purisima hiking trail"></p><p><img src="https://i.imgur.com/7IcBUUlh.jpg" alt="Wild flower along the Purisima hiking trail"></p><p><img src="https://i.imgur.com/jmDpF2Ah.jpg" alt="Weed along the Purisima hiking trail"></p>]]></content>
+    
+    <summary type="html">
+    
+      周末与好友一起去了 Purisima North Ridge Hiking Trail 徒步，
+    
+    </summary>
+    
+    
+      <category term="hiking" scheme="http://blog.itrack.fit/tags/hiking/"/>
     
   </entry>
   
@@ -388,26 +408,6 @@
     <summary type="html">
     
       在茂宜岛的第二天，天上飘起了毛毛小雨，这一天我们沿着东半岛的哈纳公路 Hana Highway，开始了神秘的丛林之旅！
-    
-    </summary>
-    
-    
-      <category term="trip_2020_maui" scheme="http://blog.itrack.fit/tags/trip-2020-maui/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>夏威夷茂宜岛 Maui 五天自驾攻略 - 出发篇</title>
-    <link href="http://blog.itrack.fit/2020/02/05/maui-trip-start/"/>
-    <id>http://blog.itrack.fit/2020/02/05/maui-trip-start/</id>
-    <published>2020-02-05T20:00:00.000Z</published>
-    <updated>2020-07-05T23:28:39.602Z</updated>
-    
-    <content type="html"><![CDATA[<p>就在三蕃还凉风习习的二月，我们来到了夏威夷 Maui 岛，开始了五天四夜的自驾游。</p><p><img src="https://raw.githubusercontent.com/0x333333/blog_img/master/z_maui_map.png" alt="Driving from OGG airport to Westin."></p><p>这是出发篇，其余的每日游记：</p><ul><li><a href="/2020/02/06/maui-trip-hana/">ALOHA 夏威夷茂宜东半岛，雨中的哈纳公路</a></li><li><a href="/2020/02/07/maui-trip-snorkeling/">ALOHA 夏威夷茂宜岛浮潜、吃传统宴会 Luau 大餐</a></li><li><a href="/2020/02/08/maui-trip-lanai/">MAHALO 拉奈岛 Lanai - 深入原始夏威夷岛屿的一场秘境探险</a></li><li><a href="/2020/02/09/maui-trip-haleakala/">A Hui Hou 穿过云层开上哈莱亚卡拉火山顶 Haleakala</a></li></ul><a id="more"></a><blockquote><p><a href="/2020/02/05/maui-trip-start/#SFO-🛫-gt-OGG-🛬">SFO 🛫 -&gt; OGG 🛬</a><br><a href="/2020/02/05/maui-trip-start/#%E5%8D%88%E9%A5%AD-%F0%9F%8D%B1%F0%9F%A5%93%F0%9F%A5%9A%F0%9F%8D%9B">午饭-🍱🥓🥚🍛</a><br><a href="/2020/02/05/maui-trip-start/#%E8%87%AA%E9%A9%BE%E6%B8%B8%E8%8C%82%E5%AE%9C%E5%B2%9B%E8%A5%BF%E5%8C%97%E5%B2%B8">自驾游茂宜岛西北岸</a><br> &nbsp;&nbsp;&nbsp;&nbsp;<a href="/2020/02/05/maui-trip-start/#Olivine-Pools">Olivine Pools</a><br> &nbsp;&nbsp;&nbsp;&nbsp;<a href="/2020/02/05/maui-trip-start/#Nakalele-Blowhole">Nakalele Blowhole</a><br> &nbsp;&nbsp;&nbsp;&nbsp;<a href="/2020/02/05/maui-trip-start/#Makaluapuna-Point-Kapalua-Labyrinth">Makaluapuna Point + Kapalua Labyrinth</a><br><a href="/2020/02/05/maui-trip-start/#%E9%85%92%E5%BA%97">酒店</a><br><a href="/2020/02/05/maui-trip-start/#%E6%99%9A%E9%A5%AD-%F0%9F%8D%B2%F0%9F%90%9F%F0%9F%A6%90%F0%9F%8D%9C%F0%9F%A5%A1%F0%9F%A5%A2%F0%9F%A5%84">晚饭 🍲🐟🦐🍜🥡🥢🥄</a></p></blockquote><h2 id="SFO-🛫-gt-OGG-🛬"><a href="#SFO-🛫-gt-OGG-🛬" class="headerlink" title="SFO 🛫 -&gt; OGG 🛬"></a>SFO 🛫 -&gt; OGG 🛬</h2><p>一大早六点多，我们赶往三蕃 SFO，搭早上 9 点的飞机。</p><p>夏威夷航空出发登机口在 Internaltional Terminal，正好可以去法航休息室坐一坐。可惜早上到太早，lounge 还没开门。按耐不住就要度假的激动，照片先拍起来。</p><p><img src="https://raw.githubusercontent.com/0x333333/blog_img/master/z_sf_klm.jpg" alt="Waiting infront of KLM lounge."></p><p><img src="https://raw.githubusercontent.com/0x333333/blog_img/master/z_sf_klm2.jpg" alt="Waiting infront of KLM lounge."></p><p>在 lounge 匆匆吃完早饭，登机，睡觉 😴😴 💤 💤 一场美梦醒来，茂宜岛就在身下！</p><p><img src="https://raw.githubusercontent.com/0x333333/blog_img/master/z_ogg.jpg" alt="OGG Arrival."></p><p>茂宜机场不是很大，从下飞机到出机场前后不超过10分钟。出机场后，有 tram 可以直达租车公司，或者步行过去10分钟。我刚走两步，就被扑面而来的热浪吹得有点晕，我还傻傻地穿着一身三蕃的厚外套。</p><h2 id="午饭-🍱🥓🥚🍛"><a href="#午饭-🍱🥓🥚🍛" class="headerlink" title="午饭 🍱🥓🥚🍛"></a>午饭 🍱🥓🥚🍛</h2><p>夏威夷跟三蕃之间有两小时时差，我们下飞机是当地中午，其实已经过了三蕃的饭点。饥肠辘辘的我们找到这家 Da Kitchen，网上评价还不错。</p><p><img src="https://raw.githubusercontent.com/0x333333/blog_img/master/z_da_kitchen.jpg" alt="Big Moco in Da Kitchen."></p><p><img src="https://raw.githubusercontent.com/0x333333/blog_img/master/z_da_kitchen2.jpg" alt="Combo."></p><p>其中一盘是当地的特色菜 Loco Moco，夏威夷米饭汉堡，最下面是一层炒饭，依次铺上一层煎过的牛肉饼、培根、午餐肉、猪肉肠，最上面在铺上炸的外焦里嫩的煎蛋，以及一些洋葱点缀。据 <a href="https://zh.wikipedia.org/wiki/%E5%A4%8F%E5%A8%81%E5%A4%B7%E7%B1%B3%E9%A5%AD%E6%B1%89%E5%A0%A1" target="_blank" rel="noopener">Wikipedia</a> 介绍：</p><blockquote><p>夏威夷米饭汉堡据报起源于1949年希洛一间名为林肯烧烤的餐厅，由其日裔店主理查德·井上及其夫人南希发明。当时一个体育俱乐部的青年成员在该餐厅要求吃到一种不同于三明治但又廉价且可快速制作、快速食用的食品。他们请求南希在碗内盛一些米饭，在饭上放置一块汉堡排，然后浇上肉汁，最后再放置一个煎蛋，类似日式丼物。该食品随后被这些青年称为“Loco Moco”，其中loco在西班牙语中意为疯狂，而这个运动队的一名成员昵称即为“疯子”，而moco一词是为与loco押韵而添加的。</p></blockquote><p>味道嘛，其实还行，就是有点咸。我们点了两大份果汁，passion fruit + orange + guava，喝起来满满夏威夷的热带风。</p><p>推荐指数：⭑⭑⭑⭒⭒<br>消费指数：💲💲💲</p><h2 id="自驾游茂宜岛西北岸"><a href="#自驾游茂宜岛西北岸" class="headerlink" title="自驾游茂宜岛西北岸"></a>自驾游茂宜岛西北岸</h2><p>因为我们酒店住在茂宜岛西海岸，从机场开过去有两种选择：</p><ul><li>从西南岸开过去，全程高速，45分钟，Google Map 推荐</li><li>从西北岸开过去，山路 + 限速30的高速，1小时30分钟</li></ul><p>因为今天安排打卡的点都在西北岸，所以我们决定走北线，开车累点就累点吧。</p><p><img src="https://raw.githubusercontent.com/0x333333/blog_img/master/z_maui_map.png" alt="Driving from OGG airport to Westin."></p><p><img src="https://raw.githubusercontent.com/0x333333/blog_img/master/z_kahekili.jpg" alt="Kahekili highway."></p><p>这些景色让人不禁联想起加州的一号公路，同样左手是山，右手悬崖，茂宜岛整体绿很多。</p><h3 id="Olivine-Pools"><a href="#Olivine-Pools" class="headerlink" title="Olivine Pools"></a>Olivine Pools</h3><p>第一个景点，Olivine Pools，恰如其名，在这个地方你可以看到一连串自然形成的“游泳池”，就在下图海边尖尖角的地方。</p><p><img src="https://raw.githubusercontent.com/0x333333/blog_img/master/z_olivine_pool2.jpg" alt="Olivine Pool."></p><p>稍微走了两步，我们看到竖着一块牌子，写着 don’t go beyond this point，所以是游客误入的意思么？看到周围不少人穿着泳衣套着浴巾就穿过去了，似乎大家也不关心牌子上写的啥 😂</p><p><img src="https://raw.githubusercontent.com/0x333333/blog_img/master/z_olivine_pool.jpg" alt="Olivine Pool."></p><p><img src="https://raw.githubusercontent.com/0x333333/blog_img/master/z_olivine_pool_kele.jpg" alt="Olivine Pool."></p><p>沿着悬崖往下走，大概需要十多分钟，到了池子附近，波涛汹涌，近在眼前。</p><p><img src="https://raw.githubusercontent.com/0x333333/blog_img/master/z_olivine_pool5.jpg" alt="Olivine Pool."></p><p><img src="https://raw.githubusercontent.com/0x333333/blog_img/master/z_olivine_pool3.jpg" alt="Olivine Pool."></p><iframe width="800" height="450" src="https://www.youtube.com/embed/u8qLrFECu7M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><p><img src="https://raw.githubusercontent.com/0x333333/blog_img/master/z_olivine_pool4.jpg" alt="Olivine Pool."></p><p>就在这惊涛骇浪下，一个石缝中发现了一只害羞的小螃蟹 🦀️以及一条小鱼</p><p><img src="https://raw.githubusercontent.com/0x333333/blog_img/master/z_olivine_pool_crab.jpg" alt="Crab in Olivine Pool."></p><p><img src="https://raw.githubusercontent.com/0x333333/blog_img/master/z_olivine_pool_fish.jpg" alt="Crab in Olivine Pool."></p><p>玩了差不多，把脚擦擦干，我们得照着原路爬回去。</p><p><img src="https://raw.githubusercontent.com/0x333333/blog_img/master/z_olivine_pool6.jpg" alt="Olivine Pool."></p><p><img src="https://raw.githubusercontent.com/0x333333/blog_img/master/z_olivine_pool_hike.jpg" alt="Hiking around Olivine Pool."></p><p>推荐指数：⭑⭑⭑⭑⭑<br>体力要求指数：⭑⭑⭑⭑⭑</p><h3 id="Nakalele-Blowhole"><a href="#Nakalele-Blowhole" class="headerlink" title="Nakalele Blowhole"></a>Nakalele Blowhole</h3><p>离开“天然游泳池”，我们回到车上，开了大约二十分钟，我们到了第二个点，Nakalele Blowhole。跟 Olivine Pool 类似，车可以停在路边，hike 下去一直到海边，差不多要走十分钟。</p><p><img src="https://raw.githubusercontent.com/0x333333/blog_img/master/z_blowhole.jpg" alt="Hiking around Blowhole."></p><p><img src="https://raw.githubusercontent.com/0x333333/blog_img/master/z_blowhole2.jpg" alt="Hiking around Blowhole."></p><iframe width="800" height="450" src="https://www.youtube.com/embed/y2SUQyf2dQk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><p>就在 Blowhole 的旁边，有一块很大的空地，光怪陆离，像极了月球表面。</p><p><img src="https://raw.githubusercontent.com/0x333333/blog_img/master/z_blowhole3.jpg" alt="Blowhole."></p><p><img src="https://raw.githubusercontent.com/0x333333/blog_img/master/z_blowhole4.jpg" alt="Blowhole."></p><p>与 Olivine 类似，回去的一段路也得往上爬，地面沙石较多，很容易打滑，建议穿登山鞋或运动鞋，人字拖还是算了。</p><p>推荐指数：⭑⭑⭑⭑⭑<br>体力要求指数：⭑⭑⭑⭑⭑</p><h3 id="Makaluapuna-Point-Kapalua-Labyrinth"><a href="#Makaluapuna-Point-Kapalua-Labyrinth" class="headerlink" title="Makaluapuna Point + Kapalua Labyrinth"></a>Makaluapuna Point + Kapalua Labyrinth</h3><p>这是看海、看悬崖、看惊涛拍岸、看月球表面的一天。</p><p><img src="https://raw.githubusercontent.com/0x333333/blog_img/master/z_Kapalua.jpg" alt="Makaluapuna Point."></p><p><img src="https://raw.githubusercontent.com/0x333333/blog_img/master/z_Kapalua4.jpg" alt="Makaluapuna Point."></p><iframe width="800" height="450" src="https://www.youtube.com/embed/LNkBHH1TUAw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><p><img src="https://raw.githubusercontent.com/0x333333/blog_img/master/z_Kapalua2.jpg" alt="Makaluapuna Point."></p><p>就在悬崖不远处，我们看到一些石头摆放的迷宫，跟加州 The Lands End 很像。图片源自网络，侵删。</p><p><img src="https://raw.githubusercontent.com/0x333333/blog_img/master/z_Kapalua3.png" alt="Makaluapuna Point."></p><p>推荐指数：⭑⭑⭑⭑⭒<br>体力要求指数：⭑⭑⭒⭒⭒</p><h2 id="酒店"><a href="#酒店" class="headerlink" title="酒店"></a>酒店</h2><p>爬了一下午的山，这一个半小时的山路，我们连玩带逛了差不多四个小时。开到酒店的时候，天已经全黑。这次夏威夷行程，我们住在 The Westin Nanea Ocean Villas，这一片基本都是有 beach direct access 的豪华酒店，白天下海非常方便！不知道是因为正逢淡季，还是因为 Marriott Gold Elite 会员，我第一次酒店被 upgrade，1b1b -&gt; 2b2b，1300 sqft，都快接近我们在湾区老宅的面积了！</p><p><img src="https://raw.githubusercontent.com/0x333333/blog_img/master/z_westin.jpg" alt="The Westin Nanea Ocean Villas."></p><p><img src="https://raw.githubusercontent.com/0x333333/blog_img/master/z_westin2.jpg" alt="The Westin Nanea Ocean Villas."></p><p>出来度假住 Westin Nanea，还有一些意想不到的好处，比如，房间自带洗衣、烘干机，厨房锅碗、厨具、洗碗机、冰箱一应俱全，非常适合家庭出游！</p><p>推荐指数：⭑⭑⭑⭑⭑<br>消费指数：💲💲💲💲💲</p><h2 id="晚饭-🍲🐟🦐🍜🥡🥢🥄"><a href="#晚饭-🍲🐟🦐🍜🥡🥢🥄" class="headerlink" title="晚饭 🍲🐟🦐🍜🥡🥢🥄"></a>晚饭 🍲🐟🦐🍜🥡🥢🥄</h2><p>经历了一天爬上爬下，实在没什么力气走太远出去吃，拿出 Yelp 搜了搜，发现附近有 food truck park，开过去五分钟！我们电话打过去，正好还有半小时左右就收摊儿，我们简单收拾了行李，迅速下楼赶过去。</p><p><img src="https://raw.githubusercontent.com/0x333333/blog_img/master/z_teppanyaki.jpg" alt="The food truck in maui."></p><p><img src="https://raw.githubusercontent.com/0x333333/blog_img/master/z_foodtrucks.jpg" alt="The food truck in maui."></p><p>我们点了份鱼+牛肉泡菜炒饭，冬阴功汤、鲜虾蔬菜炒河粉，算下来四五十刀。取号、拿饭、回酒店，打开中午 Walmart 买的啤酒和 Sake，爽！</p><p><img src="https://raw.githubusercontent.com/0x333333/blog_img/master/z_foodtruck_food.jpg" alt="The food from food truck in maui."></p><p>推荐指数：⭑⭑⭑⭑⭑<br>消费指数：💲💲</p><p><img src="https://raw.githubusercontent.com/0x333333/blog_img/master/z_westin3.jpg" alt="The Westin Nanea Ocean Villas."></p><p>酒足饭饱，我们把厨房收拾收拾，下楼去海边散步消食。</p><p>清爽的海风迎面吹来，孜孜不倦的海浪拍打着沙滩。我们沿着海边的步道走着，耳边依稀能够听见满是夏威夷味道的民俗小曲，这样的氛围，真是让人无比的惬意！</p>]]></content>
-    
-    <summary type="html">
-    
-      五天四晚夏威夷茂宜 Maui 岛自驾游攻略，打卡了 Olivine Pools、Nakalele Blowhole、Makaluapuna Point 和 Kapalua Labyrinth 等景点，晚上在酒店附近 food truck 就餐。
     
     </summary>
     
