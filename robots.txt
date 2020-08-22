@@ -5,4 +5,4 @@ Allow: /categories/
 Allow: /tags/
 Allow: /about/
 
-Sitemap: https://travel.itrack.fit/sitemap.xml
+Sitemap: https://blog.1pixel.cc/sitemap.xml
