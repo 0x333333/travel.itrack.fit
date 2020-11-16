@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.1pixel.cc/"/>
-  <updated>2020-11-02T06:32:40.380Z</updated>
+  <updated>2020-11-16T08:28:16.770Z</updated>
   <id>http://blog.1pixel.cc/</id>
   
   <author>
@@ -17,11 +17,35 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>去 Yosemite 看落叶秋景！</title>
+    <title>Skytech Gaming Blaze 2 PC 的 SSD 卡槽</title>
+    <link href="http://blog.1pixel.cc/2020/11/16/add-ssd-skytech-blaze-ii/"/>
+    <id>http://blog.1pixel.cc/2020/11/16/add-ssd-skytech-blaze-ii/</id>
+    <published>2020-11-16T08:00:00.000Z</published>
+    <updated>2020-11-16T08:28:16.770Z</updated>
+    
+    <content type="html"><![CDATA[<p>去年买了一台 Gaming PC，型号是 Skytech Gaming Blaze 2。机器用起来都还不错，可惜的是硬盘小了点，只有 500G。因为现在拍照修图，积累的素材越来越多，这么点空间不太够用，所以我稍微研究了下如何添加第二块磁盘。</p><h3 id="主板型号"><a href="#主板型号" class="headerlink" title="主板型号"></a>主板型号</h3><p>查看当前主板型号可以通过这条Windows命令：</p><figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&gt;wmic baseboard get product,Manufacturer</span><br><span class="line">Manufacturer  Product</span><br><span class="line">ASRock        B450M/ac</span><br></pre></td></tr></table></figure><p>可以看到，我的型号是 ASRock B450M，就是下面这块板子。</p><p><img src="https://imgur.com/JxDd66A.jpg" alt="ASRock B450M Pro4"></p><h3 id="磁盘卡槽"><a href="#磁盘卡槽" class="headerlink" title="磁盘卡槽"></a>磁盘卡槽</h3><p>参考其<a href="https://www.asrock.com/mb/AMD/B450M%20Pro4/#Overview" target="_blank" rel="noopener">官网详细参数</a>，板子空间不是很大，塞下了电源、风扇、RTX显卡后就没剩多少地方，如果想要添加 HDD 可能有点难。好在板子设计时有两个 M.2 插槽，中间留了一个，正好可以用。</p><p><img src="https://imgur.com/154ZfEM.jpg" alt="ASRock B450M Pro4"></p><h3 id="M-2-SSD-安装"><a href="#M-2-SSD-安装" class="headerlink" title="M.2 SSD 安装"></a>M.2 SSD 安装</h3><p>既然已经确定了卡槽类型，剩下的就是花钱了，M.2 SSD 有点贵的离谱，等黑五买好了之后再写安装的步骤。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;去年买了一台 Gaming PC，型号是 Skytech Gaming Blaze 2。机器用起来都还不错，可惜的是硬盘小了点，只有 500G。因为现在拍照修图，积累的素材越来越多，这么点空间不太够用，所以我稍微研究了下如何添加第二块磁盘。&lt;/p&gt;
+&lt;h3 id=&quot;主板型号
+      
+    
+    </summary>
+    
+    
+      <category term="tools" scheme="http://blog.1pixel.cc/tags/tools/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>去 Yosemite 看落叶秋景 | 周末湾区去哪儿玩</title>
     <link href="http://blog.1pixel.cc/2020/11/01/yosemite/"/>
     <id>http://blog.1pixel.cc/2020/11/01/yosemite/</id>
     <published>2020-11-01T07:00:00.000Z</published>
-    <updated>2020-11-02T06:32:40.380Z</updated>
+    <updated>2020-11-16T07:56:44.407Z</updated>
     
     <content type="html"><![CDATA[<p>三藩湾区的秋天应该是最让人泄气的，到处都是四季常绿的松树、红衫，接连80+度的气温，一点秋天的气氛也没有，反倒是让人觉得这是夏天的延续，还有很多人在玩Kayak和SUP板。</p><p>上个周末，我们请了周四周五两天假，去了趟 Yosemite 国家公园，特地去 Sierra 附近看看落叶，找找秋天的足迹。</p><p>正好，我等了<a href="/2020/10/31/panasonic-lumix-s5/">一个半月的新相机 Pananosic Lumix S5 也到了</a>，趁着这个机会出去试试全画幅拍风景。</p><p><img src="https://imgur.com/SKvje9a.jpg" alt="Yosemite Half Dome"></p><a id="more"></a><h2 id="出发"><a href="#出发" class="headerlink" title="出发"></a>出发</h2><p>我们提前把行李都装好，周三下午一下班，便立即开车往 Yosemite 开。本以为现在是 COVID，高速不会很堵，结果 92 桥上正值下班高峰，一片全红。根据 Google Map 建议，我们选择从南面 San Jose 走，虽然也有些堵，但我们可以走 Carpool Lane，还是为我们节省了很多时间。</p><p>中途吃了一顿晚饭，抵达 Yosemite South Entrance 时，已经是晚上 10 点。我们把 Permit check-in，便回到了位于 Oakhurst 的 Airbnb。</p><p><img src="https://imgur.com/ANGCdl2.jpg" alt="Airbnb in Oakhurst"></p><p>后来住的几天，跟 Airbnb host 也闲聊了几句，发现他们也在 tech 工作，老爷爷是 West Digital 的 Marketing Sr Director，爱好<a href="https://500px.com/p/lennysharp" target="_blank" rel="noopener">摄影</a>，老奶奶全职画画，他们之前在日本住了四年，现在回美国准备退休养老，弄了 Airbnb 也是想多跟不同的人聊聊，这种生活态度还是很赞的。听他们说，他们正在搭建一个网站，<a href="http://perfectmountaingetaway.com" target="_blank" rel="noopener">http://perfectmountaingetaway.com</a>，希望能记录和分享他们的生活。</p><h2 id="入园"><a href="#入园" class="headerlink" title="入园"></a>入园</h2><h3 id="Tunnel-View"><a href="#Tunnel-View" class="headerlink" title="Tunnel View"></a>Tunnel View</h3><p>从 Yosemite South Entrance 入园，进去后第一个拍照点便是 Tunnel view。这次出来玩很不巧，正好赶上山火大雾天，全加州都翻绿了，唯独 Yosemite 这里灰蒙蒙一片。</p><p><img src="https://imgur.com/eJPQZZQ.jpg" alt="Yosemite Tunnel View"></p><p>我们这次出来玩属于轻松游，赶到 Tunnel View 时已经是正午。好在大烟天，光线没那么强烈，照片拍出来不至于光比还能接受。</p><p>这是我第一次用 S5 拍，心里还有些小激动。拍完后在相机上看了看，真是感慨这屏幕素质，比我手上的 D300s 和 Lumix GF3 好太多了。</p><h3 id="El-Capitan"><a href="#El-Capitan" class="headerlink" title="El Capitan"></a>El Capitan</h3><p>接下去一段，我们绕着valley 里的 loop，依次远远看过了 El Capitan 和 Half Dome。山火的烟雾实在太严重了，灰蒙蒙的天什么也看不太清楚。</p><p>经过 El Capitan Meadow 时，感谢这呛人的厌恶，让我们拍下了这术光（所谓的丁达尔效应么，烟雾形成了胶体）。</p><p><img src="https://imgur.com/oaoGJHM.jpg" alt="Yosemite El Capitan Meadow"></p><h3 id="Yosemite-Valley-View"><a href="#Yosemite-Valley-View" class="headerlink" title="Yosemite Valley View"></a>Yosemite Valley View</h3><p>沿着 Loop 接着往前走，便到了 Yosemite Valley View。现在是秋天，水位很低，所以我们也没去看瀑布，都干掉了。Merced River 的水位很低，水下的石头都露了出来。我们挑了几个不同的角度，拍了下面一些照片。</p><p><img src="https://imgur.com/MCJgVgi.jpg" alt="Yosemite Valley View"></p><p><img src="https://imgur.com/8rc8G7W.jpg" alt="Yosemite Valley View"></p><p>其实，即使在 Yosemite，树叶都还是绿色的，加州的黄叶实在太少了。拿着 S5 拍的 Raw 图，我后期在 Lightroom 里面改了绿色的 Hue，所以才有了上面两张图。</p><h3 id="Half-Dome-from-Glacier-Point"><a href="#Half-Dome-from-Glacier-Point" class="headerlink" title="Half Dome from Glacier Point"></a>Half Dome from Glacier Point</h3><p>出了 Valley View，已是傍晚时分。我们回 Airbnb 途中去了 Glacier Point，去看 Half Dome。</p><p>开到 Glacier Point 才发现，好多人。拍照的最佳位置都已经被好多人占了。还好到的不算晚，我们占了个位子，就在那儿等着看日落。不得不承认，日落时分的 Half Dome 真的很壮观。</p><p><img src="https://imgur.com/SKvje9a.jpg" alt="Yosemite Half Dome"></p><h2 id="出园"><a href="#出园" class="headerlink" title="出园"></a>出园</h2><p>为了避免下山的traffic，我们没有等太阳完全落山就离开了，当我们开到 Okahurst 已经是八点半多。由于一天都没怎么好好吃，我们挑了一家还不错的餐馆，Oakhurst Grill &amp; Whiskey 41 Lounge，点了份 12oz 的 rib eye 和 Chowder，味道很不错！</p><p><img src="https://imgur.com/YSlYYK1.jpg" alt="Oakhurst Grill &amp; Whiskey 41 Lounge"></p><p><img src="https://imgur.com/d49Xc71.jpg" alt="Oakhurst Grill &amp; Whiskey 41 Lounge"></p><p>这一天，完美！</p>]]></content>
     
@@ -289,26 +313,6 @@
   </entry>
   
   <entry>
-    <title>家用螺丝刀开生蚝 | 周末湾区去哪儿玩</title>
-    <link href="http://blog.1pixel.cc/2020/05/31/open-oyster-with-screwdriver/"/>
-    <id>http://blog.1pixel.cc/2020/05/31/open-oyster-with-screwdriver/</id>
-    <published>2020-05-31T15:43:00.000Z</published>
-    <updated>2020-09-27T16:51:12.436Z</updated>
-    
-    <content type="html"><![CDATA[<iframe width="800" height="450" src="https://www.youtube.com/embed/1gslHMH8h34" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><a id="more"></a><p><strong>注意点</strong></p><ul><li>尽量用开生蚝专用刀具，如果没有螺丝刀也可以代替，厨房刀刀刃太软，不建议</li><li>一切小心第一</li></ul><p><strong>开生蚝步骤</strong></p><ul><li>生蚝外壳洗干净</li><li>在桌上垫一块抹布，将生蚝夹在中间，手不必直接按在外壳上</li><li>找准生蚝的关节处，有一个洞口</li><li>螺丝刀插入时，可以左右晃动以争取更大空间</li><li>螺丝刀插入一段后，可以利用杠杆原理撬开</li><li>打开生蚝后，用厨房刀割下粘连在两片贝壳上的肉</li><li>尽量避免外壳碎碎掉入肉中</li></ul>]]></content>
-    
-    <summary type="html">
-    
-      新鲜的 Point Reyes 生蚝，在家用螺丝刀就能直接开。
-    
-    </summary>
-    
-    
-      <category term="food" scheme="http://blog.1pixel.cc/tags/food/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Purisima Creek North Ridge Hiking Trail | 周末湾区去哪儿玩</title>
     <link href="http://blog.1pixel.cc/2020/05/31/purisima/"/>
     <id>http://blog.1pixel.cc/2020/05/31/purisima/</id>
@@ -325,6 +329,26 @@
     
     
       <category term="hiking" scheme="http://blog.1pixel.cc/tags/hiking/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>家用螺丝刀开生蚝 | 周末湾区去哪儿玩</title>
+    <link href="http://blog.1pixel.cc/2020/05/31/open-oyster-with-screwdriver/"/>
+    <id>http://blog.1pixel.cc/2020/05/31/open-oyster-with-screwdriver/</id>
+    <published>2020-05-31T15:43:00.000Z</published>
+    <updated>2020-09-27T16:51:12.436Z</updated>
+    
+    <content type="html"><![CDATA[<iframe width="800" height="450" src="https://www.youtube.com/embed/1gslHMH8h34" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><a id="more"></a><p><strong>注意点</strong></p><ul><li>尽量用开生蚝专用刀具，如果没有螺丝刀也可以代替，厨房刀刀刃太软，不建议</li><li>一切小心第一</li></ul><p><strong>开生蚝步骤</strong></p><ul><li>生蚝外壳洗干净</li><li>在桌上垫一块抹布，将生蚝夹在中间，手不必直接按在外壳上</li><li>找准生蚝的关节处，有一个洞口</li><li>螺丝刀插入时，可以左右晃动以争取更大空间</li><li>螺丝刀插入一段后，可以利用杠杆原理撬开</li><li>打开生蚝后，用厨房刀割下粘连在两片贝壳上的肉</li><li>尽量避免外壳碎碎掉入肉中</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      新鲜的 Point Reyes 生蚝，在家用螺丝刀就能直接开。
+    
+    </summary>
+    
+    
+      <category term="food" scheme="http://blog.1pixel.cc/tags/food/"/>
     
   </entry>
   
@@ -405,26 +429,6 @@
     
     
       <category term="covid" scheme="http://blog.1pixel.cc/tags/covid/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>户外徒步 Windy Hill Open Space Preserve | 周末湾区去哪儿玩</title>
-    <link href="http://blog.1pixel.cc/2020/05/23/hiking/"/>
-    <id>http://blog.1pixel.cc/2020/05/23/hiking/</id>
-    <published>2020-05-23T14:33:51.000Z</published>
-    <updated>2020-09-27T16:51:35.015Z</updated>
-    
-    <content type="html"><![CDATA[<p>一个阳光明媚的周五下午，我们到 Windy Hill 户外徒步。</p><p>我们下午四点左右到，停车场几乎停满。美国的 COVID-19 疫情依然严峻，但这依然阻止不了美国人对于户外运动的热情。不同的是，现在大家都带着口罩，并尽量保持着 6ft 的社交距离，相比中部红州人满为患的酒吧、商业街，加州还算理性。</p><p><img src="https://raw.githubusercontent.com/0x333333/blog_img/master/z_windy_map.png" alt="Winy Hill Hiking Trail Map"></p><a id="more"></a><h2 id="徒步路线"><a href="#徒步路线" class="headerlink" title="徒步路线"></a>徒步路线</h2><p>这条 Hiking Trail 原本是一个圈 (loop trail)，全长 6.8 miles，海拔变化是 1443ft。由于 COVID-19，最近只开放了 Spring Ridge Trail 这条线。从停车场到 Windy Hill 坡顶，单程差不多 2.9 miles，海拔 1919 ft，整体来说不是很难走。</p><p>需要注意的是：</p><ul><li>这条 trail 上下坡较多，膝盖不好的悠着点</li><li>Spring Ridge 这条线很好走，路很宽，平坦，只是风尘很大，走回来鞋上已是好几层灰</li><li>备好饮用水，爬坡还是有点累的，途中无补水点</li><li>因为 COVID-19，停车场厕所不开门</li></ul><h2 id="沿途风景"><a href="#沿途风景" class="headerlink" title="沿途风景"></a>沿途风景</h2><p>沿途的野花</p><p><a href="https://raw.githubusercontent.com/0x333333/blog_img/master/hiking/windy_flower.jpg" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/0x333333/blog_img/master/z_windy_flower.jpg" alt="Flower in Windy Hill Open Space Reserve"></a></p><p><a href="https://raw.githubusercontent.com/0x333333/blog_img/master/hiking/windy_flower2.jpg" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/0x333333/blog_img/master/z_windy_flower2.jpg" alt="Flower in Windy Hill Open Space Reserve"></a></p><p>途中的小蜥蜴</p><p><a href="https://raw.githubusercontent.com/0x333333/blog_img/master/hiking/windy_gecko.jpg" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/0x333333/blog_img/master/z_windy_gecko.jpg" alt="Gecko in the Windy Hill trail"></a></p><p>远处的半岛，Stanford校园</p><p><a href="https://raw.githubusercontent.com/0x333333/blog_img/master/hiking/windy_stanford.jpg" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/0x333333/blog_img/master/z_windy_stanford.jpg" alt="Stanford from the top of Windy Hill"></a></p><p><a href="https://raw.githubusercontent.com/0x333333/blog_img/master/hiking/windy_stanford2.jpg" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/0x333333/blog_img/master/z_windy_stanford2.jpg" alt="Stanford from the top of Windy Hill"></a></p><p>日晕</p><p><a href="https://raw.githubusercontent.com/0x333333/blog_img/master/hiking/windy_sun.jpg" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/0x333333/blog_img/master/z_windy_sun.jpg" alt="日晕"></a></p><p>图中的野草</p><p><a href="https://raw.githubusercontent.com/0x333333/blog_img/master/hiking/windy_weed.jpg" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/0x333333/blog_img/master/z_windy_weed.jpg" alt="Weed"></a></p><p>后面两张照片是 iPhone XR 拍的，跟前面几张单反拍的照片相比，能够看出曝光、颜色都处理地更好，毕竟智能模式比手动操作要准确很多。对于手上这台老机器，单反的长处在于镜头，手动变焦加上大光圈可以排除景深更加自然的静物照。</p><p>拍摄学习中。</p>]]></content>
-    
-    <summary type="html">
-    
-      在阳光明媚的周五下午，我们到 Windy Hill 户外徒步。
-    
-    </summary>
-    
-    
-      <category term="hiking" scheme="http://blog.1pixel.cc/tags/hiking/"/>
     
   </entry>
   
