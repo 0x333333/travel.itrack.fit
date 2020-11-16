@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.1pixel.cc/"/>
-  <updated>2020-11-16T08:28:16.770Z</updated>
+  <updated>2020-11-16T08:29:06.591Z</updated>
   <id>http://blog.1pixel.cc/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://blog.1pixel.cc/2020/11/16/add-ssd-skytech-blaze-ii/"/>
     <id>http://blog.1pixel.cc/2020/11/16/add-ssd-skytech-blaze-ii/</id>
     <published>2020-11-16T08:00:00.000Z</published>
-    <updated>2020-11-16T08:28:16.770Z</updated>
+    <updated>2020-11-16T08:29:06.591Z</updated>
     
     <content type="html"><![CDATA[<p>去年买了一台 Gaming PC，型号是 Skytech Gaming Blaze 2。机器用起来都还不错，可惜的是硬盘小了点，只有 500G。因为现在拍照修图，积累的素材越来越多，这么点空间不太够用，所以我稍微研究了下如何添加第二块磁盘。</p><h3 id="主板型号"><a href="#主板型号" class="headerlink" title="主板型号"></a>主板型号</h3><p>查看当前主板型号可以通过这条Windows命令：</p><figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&gt;wmic baseboard get product,Manufacturer</span><br><span class="line">Manufacturer  Product</span><br><span class="line">ASRock        B450M/ac</span><br></pre></td></tr></table></figure><p>可以看到，我的型号是 ASRock B450M，就是下面这块板子。</p><p><img src="https://imgur.com/JxDd66A.jpg" alt="ASRock B450M Pro4"></p><h3 id="磁盘卡槽"><a href="#磁盘卡槽" class="headerlink" title="磁盘卡槽"></a>磁盘卡槽</h3><p>参考其<a href="https://www.asrock.com/mb/AMD/B450M%20Pro4/#Overview" target="_blank" rel="noopener">官网详细参数</a>，板子空间不是很大，塞下了电源、风扇、RTX显卡后就没剩多少地方，如果想要添加 HDD 可能有点难。好在板子设计时有两个 M.2 插槽，中间留了一个，正好可以用。</p><p><img src="https://imgur.com/154ZfEM.jpg" alt="ASRock B450M Pro4"></p><h3 id="M-2-SSD-安装"><a href="#M-2-SSD-安装" class="headerlink" title="M.2 SSD 安装"></a>M.2 SSD 安装</h3><p>既然已经确定了卡槽类型，剩下的就是花钱了，M.2 SSD 有点贵的离谱，等黑五买好了之后再写安装的步骤。</p>]]></content>
     
@@ -37,6 +37,26 @@
     
     
       <category term="tools" scheme="http://blog.1pixel.cc/tags/tools/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>适马 Sigma 45mm f2.8 DG DN Contemporary L Mount Lens 配松下 Lumix S5</title>
+    <link href="http://blog.1pixel.cc/2020/11/16/sigma-45mm-s5/"/>
+    <id>http://blog.1pixel.cc/2020/11/16/sigma-45mm-s5/</id>
+    <published>2020-11-16T08:00:00.000Z</published>
+    <updated>2020-11-16T08:57:22.522Z</updated>
+    
+    <content type="html"><![CDATA[<p>自从9月初松下发布了这台 Panasonic Lumix S5，当天我就下了单，之前<a href="/2020/10/31/panasonic-lumix-s5/">比较相机的那篇博客</a>提到了松下当时做的活动，送适马 Sigma 45mm f2.8 DG DN Contemporary Lens L Mount，等了两个月，这支镜头今天终于到货了！</p><p><img src="https://imgur.com/Xq2TJml.jpg" alt="Lumix S5 and Sigma 45mm f/2.8"></p><a id="more"></a><p>镜头到手的时候，第一感觉便是这做工真踏实！</p><p>金属的外壳，使得镜头摸上去特别硬气，很有料，就连镜头罩都是金属的。相比之下，之前的2060套头的塑料做工就显得有些廉价。不过，也因为是金属外壳，这支镜头有16oz（差不多450g），确实也比2060套头的12oz要重。</p><p>这支镜头虽然重一些，但体积整整比2060小了很多，口径 φ55mm，外观尺寸 φ64.0mm × 46.2mm。如此小巧的镜头，特别适合带出去街拍，完全没有头重脚轻的情况，镜头踹口袋里也很方便。</p><p><img src="https://imgur.com/HzPcamj.jpg" alt="Lumix S5 and Sigma 45mm f/2.8"></p><p><img src="https://imgur.com/27EqSly.jpg" alt="Lumix S5 and Sigma 45mm f/2.8"></p><p>别看这么小，这支定焦镜头上有两个调节环，分别是调节焦距和光圈大小。实际体验中，对焦环用的稍多，光圈环一般在机身上调整，所以镜头上提供了 A 档，很方便。同样，对焦也有 AF 和 MF 开关。</p><p>因为镜头今天刚到，等过几天可以出门了，再更新样张。想要看具体镜头素质测评的，可以参考 <a href="https://post.smzdm.com/p/a99v7xpe/" target="_blank" rel="noopener">单评 | 适马45mm F2.8 DG DN</a>。</p>]]></content>
+    
+    <summary type="html">
+    
+      适马 Sigma 45mm f2.8 DG DN Contemporary L Mount 上手第一体验，搭配松下 Lumix S5 感觉非常好！
+    
+    </summary>
+    
+    
+      <category term="photography" scheme="http://blog.1pixel.cc/tags/photography/"/>
     
   </entry>
   
@@ -313,26 +333,6 @@
   </entry>
   
   <entry>
-    <title>Purisima Creek North Ridge Hiking Trail | 周末湾区去哪儿玩</title>
-    <link href="http://blog.1pixel.cc/2020/05/31/purisima/"/>
-    <id>http://blog.1pixel.cc/2020/05/31/purisima/</id>
-    <published>2020-05-31T15:43:00.000Z</published>
-    <updated>2020-09-27T16:51:08.115Z</updated>
-    
-    <content type="html"><![CDATA[<iframe width="800" height="450" src="https://www.youtube.com/embed/Da7xhEPjrLM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><a id="more"></a><p><img src="https://i.imgur.com/zcMqj82h.jpg" alt="Wild flower along the Purisima hiking trail"></p><p><a href="https://www.alltrails.com/trail/us/california/purisima-creek-redwoods-north-ridge-trail" target="_blank" rel="noopener">Purisima North Ridge Hiking Trail</a> 位于加州的 Redwood City，属于 Purisima Creek Open Preserve 的一部分。这条徒步路线位于 reserve 的北边，沿着山脊一直延伸至 preserve 另一头，单程 2.2 miles，往返的海拔大约有 1330 ft，来回大概需要一个半到两小时，非常适合锻炼心肺功能。</p><p>也正是因为这条路线有些上下坡比较陡，建议穿防滑登山鞋。这条路线前半段有树荫遮挡，中间一小段全是草地，如果对阳光敏感，可以戴上遮阳帽和墨镜。</p><p>作为 open preserve 的一部分，一路上有各式各样的植物，小野花，风景还是很不错的，推荐！ </p><p><img src="https://i.imgur.com/combsS1h.jpg" alt="Wild flower along the Purisima hiking trail"></p><p><img src="https://i.imgur.com/7IcBUUlh.jpg" alt="Wild flower along the Purisima hiking trail"></p><p><img src="https://i.imgur.com/jmDpF2Ah.jpg" alt="Weed along the Purisima hiking trail"></p>]]></content>
-    
-    <summary type="html">
-    
-      周末与好友一起去了 Purisima North Ridge Hiking Trail 徒步，
-    
-    </summary>
-    
-    
-      <category term="hiking" scheme="http://blog.1pixel.cc/tags/hiking/"/>
-    
-  </entry>
-  
-  <entry>
     <title>家用螺丝刀开生蚝 | 周末湾区去哪儿玩</title>
     <link href="http://blog.1pixel.cc/2020/05/31/open-oyster-with-screwdriver/"/>
     <id>http://blog.1pixel.cc/2020/05/31/open-oyster-with-screwdriver/</id>
@@ -349,6 +349,26 @@
     
     
       <category term="food" scheme="http://blog.1pixel.cc/tags/food/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Purisima Creek North Ridge Hiking Trail | 周末湾区去哪儿玩</title>
+    <link href="http://blog.1pixel.cc/2020/05/31/purisima/"/>
+    <id>http://blog.1pixel.cc/2020/05/31/purisima/</id>
+    <published>2020-05-31T15:43:00.000Z</published>
+    <updated>2020-09-27T16:51:08.115Z</updated>
+    
+    <content type="html"><![CDATA[<iframe width="800" height="450" src="https://www.youtube.com/embed/Da7xhEPjrLM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><a id="more"></a><p><img src="https://i.imgur.com/zcMqj82h.jpg" alt="Wild flower along the Purisima hiking trail"></p><p><a href="https://www.alltrails.com/trail/us/california/purisima-creek-redwoods-north-ridge-trail" target="_blank" rel="noopener">Purisima North Ridge Hiking Trail</a> 位于加州的 Redwood City，属于 Purisima Creek Open Preserve 的一部分。这条徒步路线位于 reserve 的北边，沿着山脊一直延伸至 preserve 另一头，单程 2.2 miles，往返的海拔大约有 1330 ft，来回大概需要一个半到两小时，非常适合锻炼心肺功能。</p><p>也正是因为这条路线有些上下坡比较陡，建议穿防滑登山鞋。这条路线前半段有树荫遮挡，中间一小段全是草地，如果对阳光敏感，可以戴上遮阳帽和墨镜。</p><p>作为 open preserve 的一部分，一路上有各式各样的植物，小野花，风景还是很不错的，推荐！ </p><p><img src="https://i.imgur.com/combsS1h.jpg" alt="Wild flower along the Purisima hiking trail"></p><p><img src="https://i.imgur.com/7IcBUUlh.jpg" alt="Wild flower along the Purisima hiking trail"></p><p><img src="https://i.imgur.com/jmDpF2Ah.jpg" alt="Weed along the Purisima hiking trail"></p>]]></content>
+    
+    <summary type="html">
+    
+      周末与好友一起去了 Purisima North Ridge Hiking Trail 徒步，
+    
+    </summary>
+    
+    
+      <category term="hiking" scheme="http://blog.1pixel.cc/tags/hiking/"/>
     
   </entry>
   
@@ -409,26 +429,6 @@
     
     
       <category term="gardening" scheme="http://blog.1pixel.cc/tags/gardening/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>University Avenue during COVID-19 | 周末湾区去哪儿玩</title>
-    <link href="http://blog.1pixel.cc/2020/05/23/university-avenue/"/>
-    <id>http://blog.1pixel.cc/2020/05/23/university-avenue/</id>
-    <published>2020-05-23T22:33:51.000Z</published>
-    <updated>2020-09-27T16:51:18.131Z</updated>
-    
-    <content type="html"><![CDATA[<p>即使是阳光明媚的下午，昔日热闹非凡的 University Avenue，在 COVID-19 期间也是如此的冷清。</p><p><a href="https://raw.githubusercontent.com/0x333333/blog_img/master/covid/university_avenue.jpg" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/0x333333/blog_img/master/z_university_avenue.jpg" alt="University Avenue during COVID-19"></a></p><p><a href="https://raw.githubusercontent.com/0x333333/blog_img/master/covid/university_avenue5.jpg" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/0x333333/blog_img/master/z_university_avenue5.jpg" alt="University Avenue during COVID-19"></a></p><a id="more"></a><p>流浪汉紧裹着外套，在街上来回游荡，企图从垃圾桶中寻找晚餐。</p><p><a href="https://raw.githubusercontent.com/0x333333/blog_img/master/covid/university_avenue2.jpg" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/0x333333/blog_img/master/z_university_avenue2.jpg" alt="University Avenue during COVID-19"></a></p><p><a href="https://raw.githubusercontent.com/0x333333/blog_img/master/covid/university_avenue3.jpg" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/0x333333/blog_img/master/z_university_avenue3.jpg" alt="University Avenue during COVID-19"></a></p><p>疫情期间的餐厅，在门前都挂起了各式各样送外卖点餐的联系方式，如此萧条的 downtown，零零散散的生意怕是支撑不了 Palo Alto 如此高的租金。</p><p><a href="https://raw.githubusercontent.com/0x333333/blog_img/master/covid/university_avenue4.jpg" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/0x333333/blog_img/master/z_university_avenue4.jpg" alt="University Avenue during COVID-19"></a></p>]]></content>
-    
-    <summary type="html">
-    
-      在阳光明媚的周五下午，位于 Palo Alto 的 University Avenue 依然一片冷清。
-    
-    </summary>
-    
-    
-      <category term="covid" scheme="http://blog.1pixel.cc/tags/covid/"/>
     
   </entry>
   
