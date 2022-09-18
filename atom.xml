@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.1pixel.cc/"/>
-  <updated>2021-02-27T08:15:26.349Z</updated>
+  <updated>2022-09-18T06:53:49.039Z</updated>
   <id>http://blog.1pixel.cc/</id>
   
   <author>
@@ -17,13 +17,74 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Hi TikTok!</title>
+    <link href="http://blog.1pixel.cc/2022/07/01/self-update/"/>
+    <id>http://blog.1pixel.cc/2022/07/01/self-update/</id>
+    <published>2022-07-01T07:00:00.000Z</published>
+    <updated>2022-09-18T06:53:49.039Z</updated>
+    
+    <content type="html"><![CDATA[<p>翻了上一篇博客，2021年六月一号，这一晃就是一年零一个月。这过去一年发生了很多事，我们从俩口之家变成了三口之家，而我也在今年五月份加入了字节跳动，是的，我又跳槽了！翻了下离开Google时写的这篇博客，<a href="https://zpjiang.me/2021/05/20/bye-google/" target="_blank" rel="noopener">Bye Google! Hey Uber!</a>，我自己也没想到我会这么快离职。</p><p><img src="https://i.imgur.com/Ur1CsNk.jpg" alt="Bytedance"></p><a id="more"></a><h2 id="为什么离开-Uber"><a href="#为什么离开-Uber" class="headerlink" title="为什么离开 Uber"></a>为什么离开 Uber</h2><p>与Blind、一亩三分地里的主流观点不同，我始种相信 Uber 有一天会成为一家真正的 tech giant。出行打车这个市场，是一个花了好几个B砸出来的生意，Uber和滴滴的头部位置应该是稳了。虽然现在有很多自动驾驶公司扬言要颠覆传统打车行业，相信我，一是他们的技术还做不到百分百，二是打车这个行业运营成本高的吓人，利润空间薄，不砸钱积累个几年，这个行业是抢不过Uber和滴滴的，更别提大部分自动驾驶公司变现压力大，专注算法但运营能力弱这个事实。</p><p>举个例子，Uber有个组专做Pickup和Dropoff的用户体验，PuDo，十几个engineers，单就在马路的哪一边pickup和dropoff，这个优化就已经做了一年多。各种路况下的corner case多的令人发指，而乘客对ETA又极度敏感，策略做不好，指标就打不正，这中间需要大量的人力去计算收益和策略调优。自动驾驶现在有这个luxury去做这些事情吗？</p><p>既然对这家公司如此看好，为什么我还选择了离开？</p><p>一是因为臭咚的出生，我越来越感觉到，得在拼不动了之前再逼自己一把。待在Uber的日子很安逸、很悠闲，但也让我很焦虑，我不想还能再拼一拼的这几年都这样荒废掉。第二是因为公司的股票，加入的时候56，走的时候已经跌倒了22，虽然我也劝自己这个business今后会好转，但收入上的压力是骗不了自己的。第三是因为队友，她拿了个非常不错的Uber offer，她可以肉身抄底reset我们家Uber这项投资的cost，而我的离开也算是diversify整个家庭的投资。</p><p>最后，离开Uber，我心中最愧疚的是Bozhena和Danny。在Uber的这一年，让我成长最快的，就是来自他们俩的指导和建议。没有B和D在工作中的力挺，我是无法把团队从一盘散沙拧成一股绳的。真心希望，在他们的带领下Uber能赶上经济复苏的这趟车，to the moon！</p><h2 id="为什么是-TikTok"><a href="#为什么是-TikTok" class="headerlink" title="为什么是 TikTok"></a>为什么是 TikTok</h2><p>选择TikTok前，我还在纠结要不要回Google/YouTube，跟当年的战友们一起做短视频。这里非常感谢Leslie，在她的极力帮助下拿到了个非常不错的offer，team match也正好聊到了YouTube Youth这个组，对年轻用户做短视频的算法调优，我会lead一个新的团队做ML Infra。巧的是，director正是以前做suggestion时合作过的manager，似乎一切都在跟我说，回YouTube吧，稳定，prestige，无与伦比的WLB，熟悉的环境和老朋友。</p><p>但我问自己，我离开Uber是为了上面这些吗？与其回YouTube，留在Uber不仅拥有上面这些，可能prestige差一些，但Uber的钱还多不少（Google的lowball。。），绕了一圈我跳了个寂寞？而另一边，TikTok能offer的，是我可以让我leverage在搜索行业积累多年经验的机会，TikTok本身还在飞速发展当中，跨国团队的管理对我来说也是一项新的挑战，我很难说不心动。</p><p>我看了很多网上的评论，找了很多不同背景的朋友，询问大家的想法。也许很多人跟我一样，看到网上那么多负面的评价，会打退堂鼓。但另一方面，跟不同的朋友聊下来，大家对这家公司的看法并没有那么糟。TikTok处在飞速发展的时期，FB和Google早年野蛮生长的时候，也存在类似的情况。是的，FB和Google是做大做强了，这其中也不乏很多失败了的例子，Yelp，Dropbox，这些曾经红极一时的startup因为种种原因并没能收获预期的成功。但这不正是我这次跳槽想要赌的一把吗？</p><p>我对自己说，赌一把可以，但必须明确这其中的潜在风险，也许今后晚上会加班到很晚，也许在跟国内团队合作是会有不愉快，也许心里还想工作但身体先坚持不住了，我得做好预期管理，得跟队友商量好家庭和工作的平衡，并且得保持身体健康。</p><p>最后，我还是决定了去TikTok，onward！</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;翻了上一篇博客，2021年六月一号，这一晃就是一年零一个月。这过去一年发生了很多事，我们从俩口之家变成了三口之家，而我也在今年五月份加入了字节跳动，是的，我又跳槽了！翻了下离开Google时写的这篇博客，&lt;a href=&quot;https://zpjiang.me/2021/05/20/bye-google/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Bye Google! Hey Uber!&lt;/a&gt;，我自己也没想到我会这么快离职。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/Ur1CsNk.jpg&quot; alt=&quot;Bytedance&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="work" scheme="http://blog.1pixel.cc/tags/work/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>加州一号公路自驾游汇总帖 - 中半岛篇</title>
+    <link href="http://blog.1pixel.cc/2021/06/01/california-highway-one/"/>
+    <id>http://blog.1pixel.cc/2021/06/01/california-highway-one/</id>
+    <published>2021-06-01T07:00:00.000Z</published>
+    <updated>2022-07-01T22:12:11.109Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://imgur.com/SOzjwzmh.jpg" alt="Natural Bridges State Beach"></p><blockquote><p>Nikon D300s<br>ƒ/25 1/1s 27mm ISO100</p></blockquote><p>上一篇<a href="2021/05/31/california-highway-one-halfmoon-bay/">加州一号公路自驾游汇总帖 - 半月湾篇</a>主要介绍了半月湾附近的景点，而这篇将涵盖从北面三藩一直到南面Santa Cruz 这一路其他值得一去的地方。</p><a id="more"></a><p>列表持续更新中。</p><h2 id="Lands-End"><a href="#Lands-End" class="headerlink" title="Lands End"></a>Lands End</h2><p><strong>地址: 680 Point Lobos Ave, San Francisco, CA 94121</strong></p><p>从三藩出发沿着一号公路往南开，Lands End 这个景点绝对不能错过。停好车 hike 一小段路，就能看到海岸线，以及这个经典的石阵。当初看到这个地名，脑海里就浮现出天涯海角的样子，这个地方绝对不会让你失望的。</p><p><img src="https://imgur.com/IflWxkQh.jpg" alt="Lands End"></p><p>因为 Lands End 距离三藩很近，所以远远地还能看到金门大桥。</p><p><img src="https://imgur.com/wSb2ztuh.jpg" alt="Lands End"></p><h2 id="Mori-Point"><a href="#Mori-Point" class="headerlink" title="Mori Point"></a>Mori Point</h2><p><strong>地址: Address: Mori Point Rd, Pacifica, CA 94044</strong></p><p>离开 Lands End，接着往南走，Mori Point 特别适合天气好的周末徒步散心，遛狗推娃，就是周末停车稍微有点困难。</p><p>这座公园有好多条 hiking trails，可以根据个人情况自行选择。</p><p><img src="https://imgur.com/CuOTXyFh.jpg" alt="Mori Point"></p><p><img src="https://imgur.com/5NhBjcPl.jpg" alt="Mori Point"></p><h2 id="Montara-Mountain"><a href="#Montara-Mountain" class="headerlink" title="Montara Mountain"></a>Montara Mountain</h2><p>Montara Mountain 算是进入半岛区域后第一片山群，有很多条 hiking trail，山体四周都有出发点。如果沿着一号公路，可以从这个地址上去，大概爬个十分钟就能到一个小山坡顶，可以远眺大海以及蜿蜒曲折的一号公路。</p><p><strong>地址：N Peak Access Rd, Half Moon Bay, CA 94019</strong></p><p><img src="https://imgur.com/JPy99MMh.jpg" alt="Montara Mountain"></p><p><img src="https://imgur.com/gOBWgtGh.jpg" alt="Montara Mountain"></p><p>小提示，因为上坡较陡，路上砂石较多，建议穿登山鞋去爬。</p><h2 id="Shark-Fin-Cove"><a href="#Shark-Fin-Cove" class="headerlink" title="Shark Fin Cove"></a>Shark Fin Cove</h2><p>离开半岛部分的一号公路，穿过半月湾 Half Moon Bay，接着往南走就进入了 Santa Cruz，Shark Fin Cove 这个点强烈推荐。相对来说，这片沙滩很小，但是大家非常喜欢，沙滩上有很多家庭来这里野餐（我亲眼见到有户人家搬着烧烤架去沙滩），涨潮的时候很多人还会来 cliff jumping。</p><p><strong>地址：Shark Fin Cove, Davenport, CA 95017</strong></p><p><img src="https://imgur.com/mqL4bhlh.jpg" alt="Shark Fin Cove"></p><p><img src="https://imgur.com/rFchP1Ch.jpg" alt="Shark Fin Cove"></p><p>对了，在停车场与沙滩中间，还有一条废弃多年的铁路，可以随手拍两张。</p><p><img src="https://imgur.com/VhCUjy1l.jpg" alt="Shark Fin Cove"></p><h2 id="Natural-Bridges-State-Beach"><a href="#Natural-Bridges-State-Beach" class="headerlink" title="Natural Bridges State Beach"></a>Natural Bridges State Beach</h2><p>如果说 Santa Cruz 有什么地方适合拍婚纱，那这个地点不能错过。Natural Bridges State Beach 正如名字所言，沙滩上有一座天然形成的石洞，正因为这独特的自然景观，这里吸引了很多摄影爱好者。</p><p><strong>地址：Natural Bridges State Beach, Santa Cruz, CA 95060</strong></p><p><img src="https://imgur.com/SOzjwzmh.jpg" alt="Natural Bridges State Beach"></p><blockquote><p>Nikon D300s<br>ƒ/25 1/1s 27mm ISO100</p></blockquote><p><img src="https://imgur.com/m6yJJujh.jpg" alt="Natural Bridges State Beach"></p><blockquote><p>Samsung S9<br>ƒ/2.2 1/900s 1.8mm ISO50</p></blockquote><p>三星手机这广角镜头拍出来还不错。</p><p><img src="https://imgur.com/1NTlGxch.jpg" alt="Natural Bridges State Beach"></p><blockquote><p>Samsung S9<br>ƒ/2.4 1/380s 6mm ISO50</p></blockquote><p><img src="https://imgur.com/3S3pxuBh.jpg" alt="Natural Bridges State Beach"></p><blockquote><p>Nikon D300s<br>ƒ/3.5 1/60s 18mm ISO100</p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      加州一号公路边上的景点，自驾攻略，从北部三藩 SF 到南湾 Santa Cruz，适合拍照，吹吹海风，徒步。
+    
+    </summary>
+    
+    
+      <category term="travel" scheme="http://blog.1pixel.cc/tags/travel/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>加州一号公路自驾游汇总帖 - 半月湾篇</title>
+    <link href="http://blog.1pixel.cc/2021/05/31/california-highway-one-halfmoon-bay/"/>
+    <id>http://blog.1pixel.cc/2021/05/31/california-highway-one-halfmoon-bay/</id>
+    <published>2021-05-31T07:00:00.000Z</published>
+    <updated>2022-07-01T22:12:11.094Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://imgur.com/ynCIxrKh.jpg" alt="Seal Cove Cypress Tree Tunnel"></p><blockquote><p>Panasonic Lumix S5<br>Panasonic LUMIX S 20-60mm f/3.5-5.6</p></blockquote><p>自从搬来了 Belmont，跑 Half Moon Bay 的次数明显比之前多了很多，甚至有时候下班后，趁着落日余晖，我们还能一脚油门开到半月湾拍两张夕阳，错峰交通反倒顺畅，十几分钟就能到。</p><p>既然去了这么多次，这里也写一篇小结，下面是我们去过的几个还不错的点，都在一号公路旁边。</p><a id="more"></a><h2 id="Seal-Cove-Cypress-Tree-Tunnel"><a href="#Seal-Cove-Cypress-Tree-Tunnel" class="headerlink" title="Seal Cove Cypress Tree Tunnel"></a>Seal Cove Cypress Tree Tunnel</h2><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24641.588591766216!2d-122.51165581796026!3d37.52029079745644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f71ed12147d11%3A0x5341f4fb95812297!2sJ%20V%20Fitzgerald%20Marine%20Reserve!5e0!3m2!1sen!2sus!4v1622527913379!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen loading="lazy"></iframe><p>如题图，这个公园绝对是被低估的景点，人非常少，落日的时候拍照非常赞，一排排 Cypress Tree 紧挨着海岸线，非常壮观。小红书上很多人推荐这个点，称这里为“黑暗森林”。</p><p>这座公园并不是很大，因为人不多，所以停车位也很足，有几条 hiking 的小道，大概十多分钟就能走完。</p><p>日落时分拍人像真的是特别赞！</p><p><img src="https://imgur.com/Ta4W0FXl.jpg" alt="Seal Cove Cypress Tree Tunnel"></p><blockquote><p>Panasonic Lumix S5<br>Panasonic Lumix S 85mm f/1.8</p></blockquote><p><img src="https://imgur.com/utexLzfh.jpg" alt="Seal Cove Cypress Tree Tunnel"></p><blockquote><p>Nikon D300s<br>Nikon AF-S DX Nikkor 35mm f/1.8G</p></blockquote><p><img src="https://imgur.com/gyhWi0ll.jpg" alt="Seal Cove Cypress Tree Tunnel"></p><blockquote><p>Nikon D300s<br>Nikon AF-S DX Nikkor 35mm f/1.8G</p></blockquote><p><strong>小建议：有时候傍晚时分海风很大，可以带件外套。</strong></p><h2 id="Manhattan-Beach"><a href="#Manhattan-Beach" class="headerlink" title="Manhattan Beach"></a>Manhattan Beach</h2><p>这是 Half Moon Bay 的 Manhattan Beach，就在半月湾很有名的 Ritz-Carlton 酒店下面，不是 LA 的那个。</p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12673.068993960635!2d-122.44873055757755!3d37.43079096651055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f0b7b467a1987%3A0x7d7c0224a787f53c!2sManhattan%20Beach!5e0!3m2!1sen!2sus!4v1622527842172!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen loading="lazy"></iframe><p>如果来半月湾只能去一片沙滩，那 Manhattan Beach 必去！</p><p>正是因为这沙滩小有名气，停车场平时都很满，好在 Ritz-Carlton 提供了免费停车场，只需要在 entrance 说是去沙滩的就行。</p><p><img src="https://imgur.com/tys3wSCh.jpg" alt="Manhattan Beach"></p><blockquote><p>Nikon D300s<br>Nikon AF-S Zoom-Nikkor 18-200mm f/3.5-5.6</p></blockquote><p>我们去的那次正好是落潮，潮水最低的时候，特别适合去抓海胆，很多人穿着雨靴，拎着桶，埋头找宝贝。</p><p><img src="https://imgur.com/fIBDCJyl.jpg" alt="Manhattan Beach"></p><blockquote><p>Nikon D300s<br>Nikon AF-S Zoom-Nikkor 18-200mm f/3.5-5.6</p></blockquote><p>日落时分，这个地方拍夕阳真的很不错，落潮那天海水很平静。</p><p><img src="https://imgur.com/asttmKKh.jpg" alt="Manhattan Beach"></p><blockquote><p>Nikon D300s<br>Nikon AF-S Zoom-Nikkor 18-200mm f/3.5-5.6</p></blockquote><p><img src="https://imgur.com/MrN5o5rh.jpg" alt="Manhattan Beach"></p><blockquote><p>Nikon D300s<br>Nikon AF-S Zoom-Nikkor 18-200mm f/3.5-5.6</p></blockquote><h2 id="Martin’s-Beach"><a href="#Martin’s-Beach" class="headerlink" title="Martin’s Beach"></a>Martin’s Beach</h2><p>如果你爱好星空摄影，这片沙滩肯定不能错过，因为那座地标式的尖尖小岛，特别适合做星空摄影的前景，虽然我还没尝试过。</p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6877.559992493347!2d-122.41406073010717!3d37.37237623386992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f090cb6271353%3A0x3d9391e735ac292a!2sMartin&#39;s%20Beach!5e0!3m2!1sen!2sus!4v1622527812202!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen loading="lazy"></iframe><p>去这片沙滩，车得停在一号公路旁，hiking 进去，大概五到十分钟的样子，有一点点 elevation，建议穿一双防滑的鞋。</p><p><img src="https://imgur.com/FW0q2Vnh.jpg" alt="Martin&#39;s Beach"></p><blockquote><p>Panasonic Lumix S5<br>Panasonic LUMIX S 20-60mm f/3.5-5.6</p></blockquote><p><img src="https://imgur.com/OMJhCkTh.jpg" alt="Martin&#39;s Beach"></p><blockquote><p>Panasonic Lumix S5<br>Panasonic LUMIX S 20-60mm f/3.5-5.6</p></blockquote><p>之前去的时候天气不太行，半月湾恰好大雾，所以夕阳没拍成，被风吹傻了。</p><p>下次再去吧。</p><h2 id="Wild-Mustard-Field"><a href="#Wild-Mustard-Field" class="headerlink" title="Wild Mustard Field"></a>Wild Mustard Field</h2><p>相对来说这个点没那么有名，每年春天油菜花开的时候会吸引很多游客前来拍照，建议工作日下班过去，一个人也没有。</p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25352.635643729252!2d-122.42268037178043!3d37.41159682554224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xda630d573fa4fe85!2sWild%20Mustard%20Field!5e0!3m2!1sen!2sus!4v1622528400484!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen loading="lazy"></iframe><p><img src="https://imgur.com/51oNuzCh.jpg" alt="Martin&#39;s Beach"></p><blockquote><p>Panasonic Lumix S5<br>Panasonic LUMIX S 85mm f/1.8</p></blockquote><p><img src="https://imgur.com/NLgsz6bl.jpg" alt="Martin&#39;s Beach"></p><blockquote><p>Panasonic Lumix S5<br>Panasonic LUMIX S 85mm f/1.8</p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      加州一号公路边上的景点，自驾攻略，都在 Half Moon bay 附近，适合拍照，吹吹海风，徒步。
+    
+    </summary>
+    
+    
+      <category term="travel" scheme="http://blog.1pixel.cc/tags/travel/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Sequoia &amp; Kings Canyon 北加周末游</title>
     <link href="http://blog.1pixel.cc/2021/02/20/sequoia-kings-canyon/"/>
     <id>http://blog.1pixel.cc/2021/02/20/sequoia-kings-canyon/</id>
     <published>2021-02-20T08:00:00.000Z</published>
-    <updated>2021-02-27T08:15:26.349Z</updated>
+    <updated>2022-07-01T22:12:11.094Z</updated>
     
-    <content type="html"><![CDATA[<p>趁着冬天还没走，我们计划了一次周末两天的 road trip，去了 Sequoia National Park 和 Kings Canyon National Park。<br><a id="more"></a></p><h3 id="周五下午出发"><a href="#周五下午出发" class="headerlink" title="周五下午出发"></a>周五下午出发</h3><p>我们在距离 Sequoia NP 公园入口处不远的一个小镇，Visalia，定了两晚的 Airbnb，从湾区出发，单程三个半小时，算上中途休息加油，差不多开了四个多小时。</p><p>到了 Visalia 才发现，住的地方位置非常好，五分钟车程内就有 Popeyes（最近对炸鸡汉堡非常着迷）、超市、中餐、星巴克。</p><p>经朋友推荐，这次出来我们特地带上了几盒开小灶。周五晚上决定试一次，以防第二天在公园里不知道怎么弄。</p><p><img src="https://imgur.com/cYXrP5Dl.jpg" alt="Kai xiao zao"></p><p>看着包装上的说明，煮饭其实特别简单，按照步骤，小心别烫伤自己就好了。煮个十五分钟，米饭就能熟。说实话，吃起来味道还不错，米饭滑滑的，菜量刚刚好。</p><h3 id="周六-Sequoia-National-Park"><a href="#周六-Sequoia-National-Park" class="headerlink" title="周六 Sequoia National Park"></a>周六 Sequoia National Park</h3><p>也许是 Airbnb 的床睡着实在太舒服，我们出门时就已经十一点了，开到公园大概45分钟，算上堵车，到达景点已是十二点半，正好饭点。我们拿出开小灶，就在这大雪纷飞的国家公园，吃起了鲜香麻辣的宽粉。</p><p><img src="https://imgur.com/G7IN6vml.jpg" alt="Kai xiao zao"></p><p><img src="https://imgur.com/k17iefll.jpg" alt="Kai xiao zao"></p><p><img src="https://imgur.com/jgGS0YAl.jpg" alt="Kai xiao zao"></p><p>吃饱喝足，我们选了一个简单的 hiking 路线，bear hill，一圈下来大概 1.4 mile，因为 trail 上都是雪，所以我们得穿着雪鞋。</p><p>路线的起点是 Giant Forest Museum，估计因为 COVID 现在都关门了。Museum 门前有一棵大树，Sentinel。</p><p><img src="https://imgur.com/UbngGKql.jpg" alt="Kai xiao zao"></p><p>走着走着，看到一个树洞，做背景正合适。最近刚刚入手了 Panasonic 的新镜头，85mm f1.8，随手捏了几张，拍人像真不错。</p><p><img src="https://i.imgur.com/3N1nAmdl.jpg" alt="bear hills"></p><p><img src="https://imgur.com/9T4gaXfl.jpg" alt="bear hills"></p><p>到达 Bear Hills 顶端，看到路边小树上零星挂着几片树叶，又拍了几张。</p><p><img src="https://imgur.com/a5qPyPRl.jpg" alt="bear hills"></p><p><img src="https://imgur.com/qwM7bmZl.jpg" alt="bear hills"></p><p>走完 Bear Hills，下一站 General Sherman Tree，这棵世界上最大的树。相对于之前的trail，这棵树过去非常方便，就在路边，停好车走个几十米就能看见。</p><p><img src="https://imgur.com/2pn8pdWl.jpg" alt="bear hills"></p><p><img src="https://imgur.com/0P2qayJl.jpg" alt="bear hills"></p><p>随手拍了几张，天色逐渐变暗。为了避免少在深山里开夜路，我们参观完 General Sherman Tree 就返程了。</p><p><img src="https://imgur.com/UjRBMddl.jpg" alt="bear hills"></p><p>日落后的余晖。</p><h3 id="周日-Kings-Canyon-National-Park"><a href="#周日-Kings-Canyon-National-Park" class="headerlink" title="周日 Kings Canyon National Park"></a>周日 Kings Canyon National Park</h3><p>相对周六几条大雪中的hiking的路线，周日的行程安排的更为松散和自由。Kings Canyon 海拔相对较低，几个看瀑布的地方都因为大雪 close 了，所以我们就去看看世界第二大树已经去 Hume 湖逛逛。</p><p><img src="https://imgur.com/ve8eMS7l.jpg" alt="hume lake"></p><p><img src="https://imgur.com/xs72JmVl.jpg" alt="general grant"></p>]]></content>
+    <content type="html"><![CDATA[<p>趁着冬天还没走，我们计划了一次周末两天的 road trip，去了 Sequoia National Park 和 Kings Canyon National Park。</p><a id="more"></a><h3 id="周五下午出发"><a href="#周五下午出发" class="headerlink" title="周五下午出发"></a>周五下午出发</h3><p>我们在距离 Sequoia NP 公园入口处不远的一个小镇，Visalia，定了两晚的 Airbnb，从湾区出发，单程三个半小时，算上中途休息加油，差不多开了四个多小时。</p><p>到了 Visalia 才发现，住的地方位置非常好，五分钟车程内就有 Popeyes（最近对炸鸡汉堡非常着迷）、超市、中餐、星巴克。</p><p>经朋友推荐，这次出来我们特地带上了几盒开小灶。周五晚上决定试一次，以防第二天在公园里不知道怎么弄。</p><p><img src="https://imgur.com/cYXrP5Dl.jpg" alt="Kai xiao zao"></p><p>看着包装上的说明，煮饭其实特别简单，按照步骤，小心别烫伤自己就好了。煮个十五分钟，米饭就能熟。说实话，吃起来味道还不错，米饭滑滑的，菜量刚刚好。</p><h3 id="周六-Sequoia-National-Park"><a href="#周六-Sequoia-National-Park" class="headerlink" title="周六 Sequoia National Park"></a>周六 Sequoia National Park</h3><p>也许是 Airbnb 的床睡着实在太舒服，我们出门时就已经十一点了，开到公园大概45分钟，算上堵车，到达景点已是十二点半，正好饭点。我们拿出开小灶，就在这大雪纷飞的国家公园，吃起了鲜香麻辣的宽粉。</p><p><img src="https://imgur.com/G7IN6vml.jpg" alt="Kai xiao zao"></p><p><img src="https://imgur.com/k17iefll.jpg" alt="Kai xiao zao"></p><p><img src="https://imgur.com/jgGS0YAl.jpg" alt="Kai xiao zao"></p><p>吃饱喝足，我们选了一个简单的 hiking 路线，bear hill，一圈下来大概 1.4 mile，因为 trail 上都是雪，所以我们得穿着雪鞋。</p><p>路线的起点是 Giant Forest Museum，估计因为 COVID 现在都关门了。Museum 门前有一棵大树，Sentinel。</p><p><img src="https://imgur.com/UbngGKql.jpg" alt="Kai xiao zao"></p><p>走着走着，看到一个树洞，做背景正合适。最近刚刚入手了 Panasonic 的新镜头，85mm f1.8，随手捏了几张，拍人像真不错。</p><p><img src="https://i.imgur.com/3N1nAmdl.jpg" alt="bear hills"></p><p><img src="https://imgur.com/9T4gaXfl.jpg" alt="bear hills"></p><p>到达 Bear Hills 顶端，看到路边小树上零星挂着几片树叶，又拍了几张。</p><p><img src="https://imgur.com/a5qPyPRl.jpg" alt="bear hills"></p><p><img src="https://imgur.com/qwM7bmZl.jpg" alt="bear hills"></p><p>走完 Bear Hills，下一站 General Sherman Tree，这棵世界上最大的树。相对于之前的trail，这棵树过去非常方便，就在路边，停好车走个几十米就能看见。</p><p><img src="https://imgur.com/2pn8pdWl.jpg" alt="bear hills"></p><p><img src="https://imgur.com/0P2qayJl.jpg" alt="bear hills"></p><p>随手拍了几张，天色逐渐变暗。为了避免少在深山里开夜路，我们参观完 General Sherman Tree 就返程了。</p><p><img src="https://imgur.com/UjRBMddl.jpg" alt="bear hills"></p><p>日落后的余晖。</p><h3 id="周日-Kings-Canyon-National-Park"><a href="#周日-Kings-Canyon-National-Park" class="headerlink" title="周日 Kings Canyon National Park"></a>周日 Kings Canyon National Park</h3><p>相对周六几条大雪中的hiking的路线，周日的行程安排的更为松散和自由。Kings Canyon 海拔相对较低，几个看瀑布的地方都因为大雪 close 了，所以我们就去看看世界第二大树已经去 Hume 湖逛逛。</p><p><img src="https://imgur.com/ve8eMS7l.jpg" alt="hume lake"></p><p><img src="https://imgur.com/xs72JmVl.jpg" alt="general grant"></p>]]></content>
     
     <summary type="html">
     
@@ -64,13 +125,13 @@
     <link href="http://blog.1pixel.cc/2020/12/31/winter-california/"/>
     <id>http://blog.1pixel.cc/2020/12/31/winter-california/</id>
     <published>2020-12-31T08:00:00.000Z</published>
-    <updated>2021-02-25T06:51:45.963Z</updated>
+    <updated>2022-07-01T22:12:11.094Z</updated>
     
     <content type="html"><![CDATA[<p>加州的冬天，看不出一点冬天的迹象。</p><p>反倒是因为这短短几个月的雨季，北加的一切都是绿油油的。</p><div class="pixels-photo"><br><a href="https://500px.com/photo/1026541267/Hiking-in-the-forests-by-James-Lee" alt="Hiking in the forests by James Lee on 500px.com" target="_blank" rel="noopener"><br>  <img src="https://drscdn.500px.org/photo/1026541267/m%3D900/v2?sig=213afc7ea2e43387c85fede987ad2d6c5b70aae9e192b8957595af2c69c7a371" alt="Hiking in the forests by James Lee on 500px.com"><br></a><br></div><script type="text/javascript" src="https://500px.com/embed.js"></script><p>12月31，2020的最后一天，我们去了 Pinnacles National Park。</p><p>赶了一个大早，趁着人少，我们挑了条没那么难的 hiking trail。</p><a id="more"></a><div class="pixels-photo"><br><a href="https://500px.com/photo/1026559573/narrow-staircase-leading-under-a-large-boulder-wedged-in-between-by-james-lee" alt="Narrow staircase leading under a large boulder wedged in between by James Lee on 500px.com" target="_blank" rel="noopener"><br>  <img src="https://drscdn.500px.org/photo/1026559573/m%3D900/v2?sig=1cc7a8ab25dac60b5c623afaccf5d9c3cea30a0b15017b2d88413356865f4669" alt="Narrow staircase leading under a large boulder wedged in between by James Lee on 500px.com"><br></a><br></div><p>Trail 尽头的小湖，其实是一座人工的水库，景色还不错。</p><div class="pixels-photo"><br><a href="https://500px.com/photo/1027516910/bear-gulch-reservoir-in-pinnacles-national-park-by-james-lee" alt="Bear Gulch Reservoir in Pinnacles National Park by James Lee on 500px.com" target="_blank" rel="noopener"><br>  <img src="https://drscdn.500px.org/photo/1027516910/m%3D900/v2?sig=3db6b22e0bedae0230be559c4874657dbe6eb02560cbb589cda207111ac58263" alt="Bear Gulch Reservoir in Pinnacles National Park by James Lee on 500px.com"><br></a><br></div><p>而另一处，位于 Palo Alto 的 Foothills Park。一切都很绿，早上去得早，树叶上还留着晨露。</p><div class="pixels-photo"><br><a href="https://500px.com/photo/1027516912/green-plants-from-a-hiking-trail-in-palo-alto-by-james-lee" alt="Green plants from a hiking trail in Palo Alto by James Lee on 500px.com" target="_blank" rel="noopener"><br>  <img src="https://drscdn.500px.org/photo/1027516912/m%3D900/v2?sig=638ce691d0855b057dc2ecf19bf6ddb73dadc58283b3838c92a586270dbd827d" alt="Green plants from a hiking trail in Palo Alto by James Lee on 500px.com"><br></a><br></div><div class="pixels-photo"><br><a href="https://500px.com/photo/1027516911/green-plants-from-a-hiking-trail-in-palo-alto-by-james-lee" alt="Green plants from a hiking trail in Palo Alto by James Lee on 500px.com" target="_blank" rel="noopener"><br>  <img src="https://drscdn.500px.org/photo/1027516911/m%3D900/v2?sig=bba5fc7ace6e9cf6ffc365d12115c8467d3d56a28c52ba44b6049ddc2500de48" alt="Green plants from a hiking trail in Palo Alto by James Lee on 500px.com"><br></a><br></div><p>Panasonic Lumix S5 到手一个多月了，用起来越来越顺手。除了预购的 Panasonic 85mm f/1.8 还没货，现在手上的镜头已经差不多够用了。Sigma 45mm f/2.8 也挺好用，轻便，中心够锐。</p>]]></content>
     
     <summary type="html">
     
-      加州的冬天，看不出一点冬天的迹象。
+      加州的冬天，看不出一点冬天的迹象。2020的最后一天，我们去了 Pinnacles National Park。
     
     </summary>
     
@@ -84,9 +145,9 @@
     <link href="http://blog.1pixel.cc/2020/11/16/add-ssd-skytech-blaze-ii/"/>
     <id>http://blog.1pixel.cc/2020/11/16/add-ssd-skytech-blaze-ii/</id>
     <published>2020-11-16T08:00:00.000Z</published>
-    <updated>2021-02-27T08:15:54.715Z</updated>
+    <updated>2022-07-01T22:12:11.094Z</updated>
     
-    <content type="html"><![CDATA[<p>去年买了一台 Gaming PC，型号是 Skytech Gaming Blaze 2。机器用起来都还不错，可惜的是硬盘小了点，只有 500G。因为现在拍照修图，积累的素材越来越多，这么点空间不太够用，所以我稍微研究了下如何添加第二块磁盘。</p><h3 id="主板型号"><a href="#主板型号" class="headerlink" title="主板型号"></a>主板型号</h3><p>查看当前主板型号可以通过这条Windows命令：</p><figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&gt;wmic baseboard get product,Manufacturer</span><br><span class="line">Manufacturer  Product</span><br><span class="line">ASRock        B450M/ac</span><br></pre></td></tr></table></figure><p>可以看到，我的型号是 ASRock B450M，就是下面这块板子。</p><p><img src="https://imgur.com/JxDd66Al.jpg" alt="ASRock B450M Pro4"></p><h3 id="磁盘卡槽"><a href="#磁盘卡槽" class="headerlink" title="磁盘卡槽"></a>磁盘卡槽</h3><p>参考其<a href="https://www.asrock.com/mb/AMD/B450M%20Pro4/#Overview" target="_blank" rel="noopener">官网详细参数</a>，板子空间不是很大，塞下了电源、风扇、RTX显卡后就没剩多少地方，如果想要添加 HDD 可能有点难。好在板子设计时有两个 M.2 插槽，中间留了一个，正好可以用。</p><p><img src="https://imgur.com/154ZfEMl.jpg" alt="ASRock B450M Pro4"></p><h3 id="M-2-SSD-安装"><a href="#M-2-SSD-安装" class="headerlink" title="M.2 SSD 安装"></a>M.2 SSD 安装</h3><p>既然已经确定了卡槽类型，剩下的就是花钱了，M.2 SSD 有点贵的离谱，等黑五买好了之后再写安装的步骤。</p>]]></content>
+    <content type="html"><![CDATA[<p>去年买了一台 Gaming PC，型号是 Skytech Gaming Blaze 2。机器用起来都还不错，可惜的是硬盘小了点，只有 500G。因为现在拍照修图，积累的素材越来越多，这么点空间不太够用，所以我稍微研究了下如何添加第二块磁盘。</p><h3 id="主板型号"><a href="#主板型号" class="headerlink" title="主板型号"></a>主板型号</h3><p>查看当前主板型号可以通过这条Windows命令：</p><figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&gt;wmic baseboard get product,Manufacturer</span><br><span class="line">Manufacturer  Product</span><br><span class="line">ASRock        B450M/ac</span><br></pre></td></tr></table></figure><p>可以看到，我的型号是 ASRock B450M/ac，就是下面这块板子。</p><p><img src="https://imgur.com/ptAgCel.png" alt="ASRock B450M/ac"></p><h3 id="磁盘卡槽"><a href="#磁盘卡槽" class="headerlink" title="磁盘卡槽"></a>磁盘卡槽</h3><p>参考其<a href="https://www.asrock.com/mb/AMD/B450Mac/#Overview" target="_blank" rel="noopener">官网详细参数</a>，板子空间不是很大，塞下了电源、风扇、RTX显卡后就没剩多少地方，如果想要添加 HDD 可能有点难。</p><p><a href="https://www.reddit.com/r/buildapc/comments/i1gslv/help_with_adding_an_ssd_to_a_skytech_gaming_blaze/" target="_blank" rel="noopener">Reddit网友</a>提供了一些安装磁盘的思路，具体参考机箱的<a href="https://drive.google.com/file/d/1cUwyJwk7AfiDukdWLxETu4BFl__wDxQJ/view" target="_blank" rel="noopener">安装手册</a>，只要打开右侧机箱盖，便可看到一个硬盘盒，我的台式机的SSD就塞在里面。</p><p>可惜的是，其他部件的数据线电源线挡住了硬盘盒出口，要想把磁盘拿出来，得把整理的妥妥帖帖的线路挪开，目测我没有这个能力再弄成这样，作罢。</p><h3 id="M-2-NVMe-卡槽"><a href="#M-2-NVMe-卡槽" class="headerlink" title="M.2 NVMe 卡槽"></a>M.2 NVMe 卡槽</h3><p>天无绝人之路，好在板子设计时中间还有一个 M.2 插槽，正好可以用，那500G的 SSD 就先放那儿吧。</p><p>既然已经确定了卡槽类型，剩下的就是花钱了，M.2 SSD 有点贵的离谱，等黑五买好了之后再写安装的步骤。</p>]]></content>
     
     <summary type="html">
     
@@ -372,66 +433,6 @@
     
     
       <category term="photography" scheme="http://blog.1pixel.cc/tags/photography/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>1pixel.cc 上线了！</title>
-    <link href="http://blog.1pixel.cc/2020/07/05/1pixel/"/>
-    <id>http://blog.1pixel.cc/2020/07/05/1pixel/</id>
-    <published>2020-07-05T15:43:00.000Z</published>
-    <updated>2020-08-22T18:36:18.310Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="https://i.imgur.com/k5FGFVr.png" alt="The home page of 1pixel.cc"></p><p>全新的摄影集 <a href="https://1pixel.cc" target="_blank" rel="noopener">1pixel.cc</a> 上线了！</p><a id="more"></a><p>COVID-19 憋在家，有些人开始花式炫厨技、有些人开始专注田园小清新，既然出不了门，不如多学一门手艺，丰富宅家的新生活。而我这边，翻出了家中的老相机，开始琢磨摄影，拍拍人像、花花草草、自然景观，前前后后大概也有三四个月了。</p><p>我之前一直把照片传在这座博客上，但发现传图过于麻烦，且 Google Search 对于一页全是图的博文会降低 quality score，权衡各种方案后，决定还是走传统路线，搞一个自己的摄影集站点，专站专用。</p><p>摄影这一行业门槛不高，但入了门后进阶还得靠钻研，1pixel.cc 小站刚刚搭好，希望多多交流！</p><h2 id="几点小结"><a href="#几点小结" class="headerlink" title="几点小结"></a>几点小结</h2><p><strong>多看多学习多拍</strong></p><p>没什么好解释的，这三多放哪儿都适用。镜头成像的基本原理、镜头参数的理解、基本构图的尝试，这些都是实打实的基础知识。</p><p><strong>器材</strong></p><p>初学者夯实基础更重要，钱多一步到位也不是不行。</p><p><strong>工具 &amp; 软件</strong></p><ul><li>一副皮实耐用的三脚架</li><li>一副能用的手持稳定器</li><li>拍人像，f/3.5 以上的大光圈</li><li>拍远处自然景观，焦距 100mm 以上更加方便</li><li>Adobe 全家桶真的很好用，Light Room 和 Behance 一起用真香</li><li>GIMP 虽然免费，但功能一个不落，开源跨平台</li></ul>]]></content>
-    
-    <summary type="html">
-    
-      全新的摄影集网站 https://1pixel.cc 上线了
-    
-    </summary>
-    
-    
-      <category term="photography" scheme="http://blog.1pixel.cc/tags/photography/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>家用螺丝刀开生蚝 | 周末湾区去哪儿玩</title>
-    <link href="http://blog.1pixel.cc/2020/05/31/open-oyster-with-screwdriver/"/>
-    <id>http://blog.1pixel.cc/2020/05/31/open-oyster-with-screwdriver/</id>
-    <published>2020-05-31T15:43:00.000Z</published>
-    <updated>2020-09-27T16:51:12.436Z</updated>
-    
-    <content type="html"><![CDATA[<iframe width="800" height="450" src="https://www.youtube.com/embed/1gslHMH8h34" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><a id="more"></a><p><strong>注意点</strong></p><ul><li>尽量用开生蚝专用刀具，如果没有螺丝刀也可以代替，厨房刀刀刃太软，不建议</li><li>一切小心第一</li></ul><p><strong>开生蚝步骤</strong></p><ul><li>生蚝外壳洗干净</li><li>在桌上垫一块抹布，将生蚝夹在中间，手不必直接按在外壳上</li><li>找准生蚝的关节处，有一个洞口</li><li>螺丝刀插入时，可以左右晃动以争取更大空间</li><li>螺丝刀插入一段后，可以利用杠杆原理撬开</li><li>打开生蚝后，用厨房刀割下粘连在两片贝壳上的肉</li><li>尽量避免外壳碎碎掉入肉中</li></ul>]]></content>
-    
-    <summary type="html">
-    
-      新鲜的 Point Reyes 生蚝，在家用螺丝刀就能直接开。
-    
-    </summary>
-    
-    
-      <category term="food" scheme="http://blog.1pixel.cc/tags/food/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Purisima Creek North Ridge Hiking Trail | 周末湾区去哪儿玩</title>
-    <link href="http://blog.1pixel.cc/2020/05/31/purisima/"/>
-    <id>http://blog.1pixel.cc/2020/05/31/purisima/</id>
-    <published>2020-05-31T15:43:00.000Z</published>
-    <updated>2020-09-27T16:51:08.115Z</updated>
-    
-    <content type="html"><![CDATA[<iframe width="800" height="450" src="https://www.youtube.com/embed/Da7xhEPjrLM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><a id="more"></a><p><img src="https://i.imgur.com/zcMqj82h.jpg" alt="Wild flower along the Purisima hiking trail"></p><p><a href="https://www.alltrails.com/trail/us/california/purisima-creek-redwoods-north-ridge-trail" target="_blank" rel="noopener">Purisima North Ridge Hiking Trail</a> 位于加州的 Redwood City，属于 Purisima Creek Open Preserve 的一部分。这条徒步路线位于 reserve 的北边，沿着山脊一直延伸至 preserve 另一头，单程 2.2 miles，往返的海拔大约有 1330 ft，来回大概需要一个半到两小时，非常适合锻炼心肺功能。</p><p>也正是因为这条路线有些上下坡比较陡，建议穿防滑登山鞋。这条路线前半段有树荫遮挡，中间一小段全是草地，如果对阳光敏感，可以戴上遮阳帽和墨镜。</p><p>作为 open preserve 的一部分，一路上有各式各样的植物，小野花，风景还是很不错的，推荐！ </p><p><img src="https://i.imgur.com/combsS1h.jpg" alt="Wild flower along the Purisima hiking trail"></p><p><img src="https://i.imgur.com/7IcBUUlh.jpg" alt="Wild flower along the Purisima hiking trail"></p><p><img src="https://i.imgur.com/jmDpF2Ah.jpg" alt="Weed along the Purisima hiking trail"></p>]]></content>
-    
-    <summary type="html">
-    
-      周末与好友一起去了 Purisima North Ridge Hiking Trail 徒步，
-    
-    </summary>
-    
-    
-      <category term="hiking" scheme="http://blog.1pixel.cc/tags/hiking/"/>
     
   </entry>
   
